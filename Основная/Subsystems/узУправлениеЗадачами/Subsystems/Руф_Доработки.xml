@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Subsystem uuid="955d4c63-ed90-4dfa-b1a8-34b5a1b0d52c">
+		<Properties>
+			<Name>Руф_Доработки</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доработки (Руф)</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Руф_Подразделения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.Руф_ЮрФизЛицо</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Руф_Офисы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Руф_Наряды</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Руф_ТипыВремени</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.Руф_ПозицииСМ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Руф_ЕжемесячныйПланПоВыбработке</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Руф_СтавкиРаботПоИсполнителям</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Руф_КатегорииСпециалистов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.Руф_ВидыВыплат</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.Руф_ВидыУдержаний</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Руф_РасчетЗаработнойПлаты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.Руф_ПланФактПоИсполнителям</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Руф_ИдентификаторыВнешныхСервисов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Руф_РеализацииИВЗР</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Руф_КонтрольРеализаций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.Руф_ОтчетПоРеализациям</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>
