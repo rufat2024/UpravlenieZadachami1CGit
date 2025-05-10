@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Enum uuid="7f766ce6-518a-4fdf-a3bd-548b05663a5c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.узОтображениеПисемПоЗадачамНаДоске" category="Ref">
+				<xr:TypeId>5dc4d531-2ba7-4f9b-a107-41ce91e32294</xr:TypeId>
+				<xr:ValueId>4ec91262-3e95-4cc8-9062-74d275a39faa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.узОтображениеПисемПоЗадачамНаДоске" category="Manager">
+				<xr:TypeId>84bea7db-d02d-40da-9bca-7722fa9f9f22</xr:TypeId>
+				<xr:ValueId>865738dc-3afc-4161-9e5a-7e0662e71496</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.узОтображениеПисемПоЗадачамНаДоске" category="List">
+				<xr:TypeId>9a89d5c7-9caf-4d35-a064-c1e1ea35e87e</xr:TypeId>
+				<xr:ValueId>b92ed826-5582-4288-a260-904b11f5d088</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>узОтображениеПисемПоЗадачамНаДоске</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b4f2d527-3754-43f5-b736-c17642524e36</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="68b6ba92-8a79-4cad-9144-cc01f78741ac">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Отсутствует</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>dfa54117-27ab-4685-8eaf-56fb025864af</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="79ce3a4b-63d8-4027-a3fe-aa13e890fe86">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗначениеИКартинка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>974afea2-e7e3-4420-89f4-15becfeb4e05</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="55973f03-4d82-497e-aebc-294040e7dabc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Картинка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ef302641-5c7c-4d2b-b6bc-8ee8101b4a5e</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

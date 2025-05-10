@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.19">
+	<ConfigVersions>
+		<Metadata name="CommonModule.УправлениеДоступомСлужебный" id="2a83be4b-78b9-40fe-a6f8-ab3cc81b34a7" configVersion="736642ff95631ee38c40619967b472182a90d90f"/>
+		<Metadata name="CommonModule.УправлениеДоступомСлужебный.Module" id="2a83be4b-78b9-40fe-a6f8-ab3cc81b34a7.0" configVersion="3b6f7a5570f18f091d4239b1d907e62773cc91af"/>
+		<Metadata name="Configuration.ЗащитаРолейРасширенийДляАдминовБСП3" id="0e43e584-ffe0-4583-9633-3e9eed0bed4c" configVersion="e1efe3ee57ea06bc18b70b1d9b43b4d6cda77a89"/>
+		<Metadata name="Language.Русский" id="1ba8e4d8-9246-4df3-96c7-32fcdfc6b357" configVersion="032f89105c8203406625a7269de76b1de7400881"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

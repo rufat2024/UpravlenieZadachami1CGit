@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФактСтоп" id="69">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Стоп</CommandName>
+				<ExtendedTooltip name="ФактСтопРасширеннаяПодсказка" id="70"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="ГруппаШапка" id="59">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="60"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаШапкаЛево" id="61">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапка лево</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапка лево</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаШапкаЛевоРасширеннаяПодсказка" id="62"/>
+					<ChildItems>
+						<InputField name="Код" id="1">
+							<DataPath>Объект.Code</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+						</InputField>
+						<InputField name="Наименование" id="4">
+							<DataPath>Объект.Description</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+						</InputField>
+						<InputField name="Задача" id="7">
+							<DataPath>Объект.Задача</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЗадачаКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="ЗадачаРасширеннаяПодсказка" id="9"/>
+						</InputField>
+						<InputField name="Спринт" id="73">
+							<DataPath>Объект.Спринт</DataPath>
+							<ContextMenu name="СпринтКонтекстноеМеню" id="74"/>
+							<ExtendedTooltip name="СпринтРасширеннаяПодсказка" id="75"/>
+						</InputField>
+						<InputField name="Исполнитель" id="13">
+							<DataPath>Объект.Исполнитель</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ИсполнительКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ИсполнительРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<InputField name="Примечание" id="79">
+							<DataPath>Объект.Примечание</DataPath>
+							<ContextMenu name="ПримечаниеКонтекстноеМеню" id="80"/>
+							<ExtendedTooltip name="ПримечаниеРасширеннаяПодсказка" id="81"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаШапкаПраво" id="63">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапка право</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапка право</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаШапкаПравоРасширеннаяПодсказка" id="64"/>
+					<ChildItems>
+						<InputField name="ДатаНачалаПлан" id="16">
+							<DataPath>Объект.ДатаНачалаПлан</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДатаНачалаПланКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ДатаНачалаПланРасширеннаяПодсказка" id="18"/>
+						</InputField>
+						<InputField name="ДатаОкончанияПлан" id="19">
+							<DataPath>Объект.ДатаОкончанияПлан</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДатаОкончанияПланКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ДатаОкончанияПланРасширеннаяПодсказка" id="21"/>
+						</InputField>
+						<InputField name="ВремяПлановое" id="25">
+							<DataPath>Объект.ВремяПлановое</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ВремяПлановоеКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ВремяПлановоеРасширеннаяПодсказка" id="27"/>
+						</InputField>
+						<InputField name="ВремяФактическое" id="28">
+							<DataPath>Объект.ВремяФактическое</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ВремяФактическоеКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="ВремяФактическоеРасширеннаяПодсказка" id="30"/>
+						</InputField>
+						<InputField name="ВремяАстрономическое" id="31">
+							<DataPath>Объект.ВремяАстрономическое</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ВремяАстрономическоеКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="ВремяАстрономическоеРасширеннаяПодсказка" id="33"/>
+						</InputField>
+						<LabelField name="Автор" id="10">
+							<DataPath>Объект.Автор</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<Hiperlink>true</Hiperlink>
+							<ContextMenu name="АвторКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="АвторРасширеннаяПодсказка" id="12"/>
+						</LabelField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="Факт" id="34">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Факт</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ФактКонтекстноеМеню" id="35"/>
+			<AutoCommandBar name="ФактКоманднаяПанель" id="36">
+				<ChildItems>
+					<ButtonGroup name="ФактГруппаСтартСтоп" id="65">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>СтартСтоп</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Факт группа старт стоп</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ФактГруппаСтартСтопРасширеннаяПодсказка" id="66"/>
+						<ChildItems>
+							<Button name="ФактСтарт" id="67">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.Старт</CommandName>
+								<ExtendedTooltip name="ФактСтартРасширеннаяПодсказка" id="68"/>
+							</Button>
+							<Button name="ФактПауза" id="71">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.Пауза</CommandName>
+								<ExtendedTooltip name="ФактПаузаРасширеннаяПодсказка" id="72"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ФактРасширеннаяПодсказка" id="37"/>
+			<SearchStringAddition name="ФактСтрокаПоиска" id="38">
+				<AdditionSource>
+					<Item>Факт</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ФактСтрокаПоискаКонтекстноеМеню" id="39"/>
+				<ExtendedTooltip name="ФактСтрокаПоискаРасширеннаяПодсказка" id="40"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ФактСостояниеПросмотра" id="41">
+				<AdditionSource>
+					<Item>Факт</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ФактСостояниеПросмотраКонтекстноеМеню" id="42"/>
+				<ExtendedTooltip name="ФактСостояниеПросмотраРасширеннаяПодсказка" id="43"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ФактУправлениеПоиском" id="44">
+				<AdditionSource>
+					<Item>Факт</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ФактУправлениеПоискомКонтекстноеМеню" id="45"/>
+				<ExtendedTooltip name="ФактУправлениеПоискомРасширеннаяПодсказка" id="46"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ФактНомерСтроки" id="47">
+					<DataPath>Объект.Факт.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ФактНомерСтрокиКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="ФактНомерСтрокиРасширеннаяПодсказка" id="49"/>
+				</LabelField>
+				<InputField name="ФактДатаНачалаФакт" id="50">
+					<DataPath>Объект.Факт.ДатаНачалаФакт</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>15</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>15</MaxWidth>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="ФактДатаНачалаФактКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="ФактДатаНачалаФактРасширеннаяПодсказка" id="52"/>
+				</InputField>
+				<InputField name="ФактДатаОкончанияФакт" id="53">
+					<DataPath>Объект.Факт.ДатаОкончанияФакт</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>15</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="ФактДатаОкончанияФактКонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="ФактДатаОкончанияФактРасширеннаяПодсказка" id="55"/>
+				</InputField>
+				<InputField name="ФактПримечание" id="76">
+					<DataPath>Объект.Факт.Примечание</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ФактПримечаниеКонтекстноеМеню" id="77"/>
+					<ExtendedTooltip name="ФактПримечаниеРасширеннаяПодсказка" id="78"/>
+				</InputField>
+				<InputField name="ФактФакт" id="56">
+					<DataPath>Объект.Факт.Факт</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>10</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>10</MaxWidth>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="ФактФактКонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="ФактФактРасширеннаяПодсказка" id="58"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<InputField name="Комментарий" id="22">
+			<DataPath>Объект.Комментарий</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="24"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.тт_ЭлементыРасписания</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Старт" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Старт</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Старт</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.тт_Старт</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Старт</Action>
+		</Command>
+		<Command name="Стоп" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Стоп</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Стоп</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.тт_Стоп</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Стоп</Action>
+		</Command>
+		<Command name="Пауза" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пауза</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пауза</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.тт_Пауза</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Пауза</Action>
+		</Command>
+	</Commands>
+</Form>

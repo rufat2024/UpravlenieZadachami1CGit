@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Catalog uuid="2aa4475e-bfeb-40b2-ae3a-7243781bb5c1">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.узКонтрагенты" category="Object">
+				<xr:TypeId>b8f2b4ad-cd61-427e-835d-b4c3fe8ff407</xr:TypeId>
+				<xr:ValueId>32ab2545-7aa7-4562-b583-be959aad9b0a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.узКонтрагенты" category="Ref">
+				<xr:TypeId>883f3d4e-554f-46b8-8e49-8d10ca540a88</xr:TypeId>
+				<xr:ValueId>9ae683c5-6e41-4781-8831-5d1a78f73a9a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.узКонтрагенты" category="Selection">
+				<xr:TypeId>17a0677a-36fc-4d2b-9213-9e7439ae9cfb</xr:TypeId>
+				<xr:ValueId>a78ad03e-5d17-420d-bb28-09e9696410f2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.узКонтрагенты" category="List">
+				<xr:TypeId>ea940f05-7d05-4bea-993e-746ee4a04204</xr:TypeId>
+				<xr:ValueId>7cff40ff-265b-48b8-ba8f-7f8e3c54d412</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.узКонтрагенты" category="Manager">
+				<xr:TypeId>09e5465f-6c9d-44dc-bfed-f081ca74c5f6</xr:TypeId>
+				<xr:ValueId>29762d75-732c-4049-b9a7-a8e7f7850ac6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>узКонтрагенты</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>db15f636-25b1-4af2-bb80-1b1df385da7e</ExtendedConfigurationObject>
+			<Hierarchical>true</Hierarchical>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>150</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="ad5c87f3-ea81-46e8-991d-bb3017d8280a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>узШаблонСообщения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>62ab0af1-2add-4511-a201-892859516859</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ШаблоныСообщений</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f256b576-d6a0-4a45-9138-1d7dc07fb0f4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>узНеОтправлятьУведомленияНаПочту</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>10bec789-1d5a-4037-8e44-766cbc00c75e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="59c2c729-28a0-422e-b20c-53793171680f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>узКороткоеИмя</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b984b951-88d4-4478-bbbe-f90f8e4773fe</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>150</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a81916dd-98bb-4eb4-9af9-7b04e59ce69b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Руф_ИНН</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>85ea46f7-3eb7-4ba0-b8c3-6c40a3a634d4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="83196640-ddf9-40c9-9ad6-0b053239fb08">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Руф_ОсновнойМенеджер</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9b2a4b13-3f7d-46f2-b1e0-ec9cbb0faa82</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3694b444-1cf9-4ea8-a29c-2d7275988081">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Руф_Страна</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>00c41feb-a9b4-41ec-bd2a-240fc78f4758</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтраныМира</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f4297691-d643-4d18-b73d-1ddeb2974ac3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Руф_ЮрФизЛицо</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8aaafe66-e830-4cb7-8195-1d43a96b88de</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.Руф_ЮрФизЛицо</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="354dd0de-d827-4f36-807c-20d55d33d44c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Руф_Офис</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>da0d385f-7734-422e-a4b0-5eef01718161</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Руф_Офисы</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

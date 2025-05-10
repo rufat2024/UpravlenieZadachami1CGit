@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Catalog uuid="2fb330ef-acc4-46f8-99ab-a84d39f84923">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.узКонфигурации" category="Object">
+				<xr:TypeId>55568d99-a47b-4b73-ae39-addd0faa0fa7</xr:TypeId>
+				<xr:ValueId>b102e6d4-a606-410c-9ed8-57633765c2c9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.узКонфигурации" category="Ref">
+				<xr:TypeId>e3c101a8-c6f2-458a-a4a6-94bee0349e75</xr:TypeId>
+				<xr:ValueId>3504daa5-4169-4e7d-a036-d58073ddf9b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.узКонфигурации" category="Selection">
+				<xr:TypeId>6867a1ec-d9e7-43e9-a5f5-2f91567739f5</xr:TypeId>
+				<xr:ValueId>4a381bd4-0dbe-4e62-856a-6419673668ef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.узКонфигурации" category="List">
+				<xr:TypeId>2f56950b-cd86-48cf-9226-56ad48db8711</xr:TypeId>
+				<xr:ValueId>d5ecb9de-44a1-4306-a9a6-46d778b624da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.узКонфигурации" category="Manager">
+				<xr:TypeId>d495ee90-1a8e-4b27-9ebe-c1d391f4bb92</xr:TypeId>
+				<xr:ValueId>f88b880d-11c9-40c7-919a-84d8d8ecb31a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>узКонфигурации</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0b3a5cc1-4730-4bfc-9813-12e64568eb55</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

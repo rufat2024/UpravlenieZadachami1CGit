@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Catalog uuid="e72f6426-5902-4ddb-9c34-3f253d1a3830">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Руф_ТипыВремени" category="Object">
+				<xr:TypeId>6fe51571-8a30-4d2b-b094-edddcfe1f577</xr:TypeId>
+				<xr:ValueId>a80644c6-471e-4710-a070-f0d34ef81a75</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Руф_ТипыВремени" category="Ref">
+				<xr:TypeId>967f5b29-2417-426b-9020-afbe9bf27acc</xr:TypeId>
+				<xr:ValueId>9015ec39-841e-4bd2-8bb4-478bfccb63e5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Руф_ТипыВремени" category="Selection">
+				<xr:TypeId>0c4ca9db-cb81-4237-8b0b-016a79add344</xr:TypeId>
+				<xr:ValueId>c45a3ef2-d18f-4336-b10f-c255f0dc798a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Руф_ТипыВремени" category="List">
+				<xr:TypeId>62038971-14a5-4b86-80fe-133ac1eaa5eb</xr:TypeId>
+				<xr:ValueId>a9b2f7b2-fd61-4055-b104-b4d83448512c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Руф_ТипыВремени" category="Manager">
+				<xr:TypeId>bdb733b4-7b1b-4773-be0e-c3a82ea54a61</xr:TypeId>
+				<xr:ValueId>75448a27-5d78-46c4-babd-b64148b82e3f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Руф_ТипыВремени</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e1b0877c-d5f8-4b9e-aecd-4cba2d8e3d02</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

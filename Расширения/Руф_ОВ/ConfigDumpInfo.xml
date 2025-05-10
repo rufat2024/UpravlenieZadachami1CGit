@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.19">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.узФактПоЗадачам" id="741b85d1-8398-43de-a1c9-251f91403ab2" configVersion="ce8d863b685079cd4ee3eb9e954798433a21cbb6"/>
+		<Metadata name="Catalog.Пользователи" id="8b0f21cc-45d8-4da9-b5ee-47a6b330cf1a" configVersion="25f18fbb91f38a173487b51e535e8f48ddcff9b3"/>
+		<Metadata name="Catalog.Руф_Наряды" id="6da04034-fc52-4199-867e-917661ccb097" configVersion="9ebc8abba516a0a818a7773e5bceab905552c034"/>
+		<Metadata name="Catalog.Руф_Офисы" id="3e4378ad-a5bd-4290-b5f7-f78da1c3f67c" configVersion="e34884aa70812144f925c40e17567ef67715c5fd"/>
+		<Metadata name="Catalog.Руф_Подразделения" id="668480ea-c581-45cd-86b6-0f459eb46599" configVersion="b5d617f805cc712233ce3793334aa119b1b39963"/>
+		<Metadata name="Catalog.Руф_ТипыВремени" id="e72f6426-5902-4ddb-9c34-3f253d1a3830" configVersion="22101346fd7145b9e4bc28fc31ee240b027afd7c"/>
+		<Metadata name="Catalog.СтраныМира" id="5e647f9f-23d2-48cd-8f3d-a28de5c7b602" configVersion="76294c0608d03123548f4c9f62eed22db38aed63"/>
+		<Metadata name="Catalog.ШаблоныСообщений" id="9ff9e7f1-8ea7-45f7-b54f-fa59e409f73a" configVersion="c77432cefb3638002dd1aa621e67dc71a7156fa3"/>
+		<Metadata name="Catalog.узЗадачи" id="c1efa2eb-885f-454c-9e40-fe9f702688a3" configVersion="ccca7900827e18d8ce6dbb11389228351bd1eb31">
+			<Metadata name="Catalog.узЗадачи.Attribute.Руф_НомерФорумаВнешнейЗаявки" id="1bde4866-7cf2-4627-b3e7-9fdc488d10f3"/>
+			<Metadata name="Catalog.узЗадачи.Attribute.Контрагент" id="5a120571-598c-47e2-b10e-637aea1519ec"/>
+			<Metadata name="Catalog.узЗадачи.Attribute.Руф_Постановщик" id="64abf262-26e9-43f5-add8-632924778b0e"/>
+			<Metadata name="Catalog.узЗадачи.Attribute.Руф_ТипВремени" id="6a217701-83f2-4fc0-accb-8180beac55ca"/>
+			<Metadata name="Catalog.узЗадачи.Attribute.Руф_Наряд" id="e0be6499-e1c2-460b-a35a-568bd260c7c6"/>
+		</Metadata>
+		<Metadata name="Catalog.узЗадачи.Form.ФормаЭлемента" id="998f7895-57e6-4e67-b8c7-ad036a7d9b0b" configVersion="fbfff9fe74c8d674aba14a309fe47a619c89864f"/>
+		<Metadata name="Catalog.узЗадачи.Form.ФормаЭлемента.Form" id="998f7895-57e6-4e67-b8c7-ad036a7d9b0b.0" configVersion="58c9adff57e8026d2f52e9b9d563a0ee2169ab69"/>
+		<Metadata name="Catalog.узКонстанты" id="19d3e2ee-2d05-4071-a331-7f1fd46f2ec4" configVersion="68c92d8707211228ea305184f5f30318b5268a77"/>
+		<Metadata name="Catalog.узКонстанты.ManagerModule" id="19d3e2ee-2d05-4071-a331-7f1fd46f2ec4.3" configVersion="165e5889ca79def60f3f320d32f23825a10fa230"/>
+		<Metadata name="Catalog.узКонтрагенты" id="2aa4475e-bfeb-40b2-ae3a-7243781bb5c1" configVersion="02158b39bb2c42a2e8c4d3af6c978f99316b6431">
+			<Metadata name="Catalog.узКонтрагенты.Attribute.Руф_Офис" id="354dd0de-d827-4f36-807c-20d55d33d44c"/>
+			<Metadata name="Catalog.узКонтрагенты.Attribute.Руф_Страна" id="3694b444-1cf9-4ea8-a29c-2d7275988081"/>
+			<Metadata name="Catalog.узКонтрагенты.Attribute.узКороткоеИмя" id="59c2c729-28a0-422e-b20c-53793171680f"/>
+			<Metadata name="Catalog.узКонтрагенты.Attribute.Руф_ОсновнойМенеджер" id="83196640-ddf9-40c9-9ad6-0b053239fb08"/>
+			<Metadata name="Catalog.узКонтрагенты.Attribute.Руф_ИНН" id="a81916dd-98bb-4eb4-9af9-7b04e59ce69b"/>
+			<Metadata name="Catalog.узКонтрагенты.Attribute.узШаблонСообщения" id="ad5c87f3-ea81-46e8-991d-bb3017d8280a"/>
+			<Metadata name="Catalog.узКонтрагенты.Attribute.узНеОтправлятьУведомленияНаПочту" id="f256b576-d6a0-4a45-9138-1d7dc07fb0f4"/>
+			<Metadata name="Catalog.узКонтрагенты.Attribute.Руф_ЮрФизЛицо" id="f4297691-d643-4d18-b73d-1ddeb2974ac3"/>
+		</Metadata>
+		<Metadata name="Catalog.узКонтрагенты.Form.ФормаЭлемента" id="972afc3d-446f-43be-9705-e85aa136caf6" configVersion="a99ec836d7d4220b7d7aee80af15612982fbd86f"/>
+		<Metadata name="Catalog.узКонтрагенты.Form.ФормаЭлемента.Form" id="972afc3d-446f-43be-9705-e85aa136caf6.0" configVersion="09d8bbe3436fba89d55ef30760d53ea8f7aca4d8"/>
+		<Metadata name="Catalog.узСпринты" id="363739f4-b667-432f-a46a-954174674f20" configVersion="ebd449a48ae0cbd6e9b46828ad99528b3a5693ca"/>
+		<Metadata name="Catalog.узСтатусыЗадачи" id="e4b3b737-2a9f-47a3-84b5-bba01cafb8e2" configVersion="bbfbe7e7c95655fe5358c146db707e8bcaec709d"/>
+		<Metadata name="Catalog.узСтатусыЗадачи.Predefined" id="e4b3b737-2a9f-47a3-84b5-bba01cafb8e2.1c" configVersion="886149f7996b42f0fb4dc8d9b3960108157feb26"/>
+		<Metadata name="CommonModule.Руф_ТелеграммБот" id="b31c1c12-2789-4161-a76c-d9563ae465fb" configVersion="32c04557f318972d11eaf9e7284e0c2263232582"/>
+		<Metadata name="CommonModule.Руф_ТелеграммБот.Module" id="b31c1c12-2789-4161-a76c-d9563ae465fb.0" configVersion="af5c2d2935d63cb5eca285c38296ce84936272cb"/>
+		<Metadata name="CommonModule.Руф_ТелеграммБотКоманды" id="c983bb10-d77e-4810-9a36-e88e06655810" configVersion="d6fed82a099afba05805cb2c657805bb3919820c"/>
+		<Metadata name="CommonModule.Руф_ТелеграммБотКоманды.Module" id="c983bb10-d77e-4810-9a36-e88e06655810.0" configVersion="6ce31e09e0067c97107377b2fd102112faad78d3"/>
+		<Metadata name="Configuration.Руф_ОВ" id="d2b854b7-3dd7-48c9-9105-99a5b25e42e0" configVersion="558edff83670e9165831d1f57d6ac7aab8f77787"/>
+		<Metadata name="Configuration.Руф_ОВ.Splash" id="8655573f-68b1-4d7e-b71c-7f3c864d27f2.2" configVersion="af58da8b2e4d75fe8e7d9e3560b54977f1d4147e"/>
+		<Metadata name="Document.узВводФактаПоЗадаче" id="88ea4cc7-608c-4394-8994-52ac9d28d2ac" configVersion="dc5f59fa56e445a7ebefa895d3477248ef220e2f">
+			<Metadata name="Document.узВводФактаПоЗадаче.TabularSection.Данные.Attribute.Факт" id="058ac092-665a-41e0-b028-ca57e7149727"/>
+			<Metadata name="Document.узВводФактаПоЗадаче.TabularSection.Данные.Attribute.Спринт" id="125b55ce-5a8f-4c9c-bd78-377180f60b9f"/>
+			<Metadata name="Document.узВводФактаПоЗадаче.Attribute.Комментарий" id="139ae685-0198-4170-bc24-3786e8d299ab"/>
+			<Metadata name="Document.узВводФактаПоЗадаче.TabularSection.Данные.Attribute.Примечание" id="4d67956a-ccca-4f57-a976-a4d4a7dee94d"/>
+			<Metadata name="Document.узВводФактаПоЗадаче.TabularSection.Данные.Attribute.ДатаОкончания" id="75b5a2cd-9eec-4804-8a74-724924e4369f"/>
+			<Metadata name="Document.узВводФактаПоЗадаче.TabularSection.Данные" id="82bbbd85-fe30-450f-8cab-98df6709cc8d"/>
+			<Metadata name="Document.узВводФактаПоЗадаче.TabularSection.Данные.Attribute.Руф_ТипВремени" id="91bba4d1-0eaa-4261-ba84-45de847b7aa3"/>
+			<Metadata name="Document.узВводФактаПоЗадаче.Attribute.Задача" id="9836fa46-daed-404b-9964-aeeabcc07458"/>
+			<Metadata name="Document.узВводФактаПоЗадаче.TabularSection.Данные.Attribute.ДатаНачала" id="b324c53c-81ec-4949-ad62-fc5d26eaf571"/>
+			<Metadata name="Document.узВводФактаПоЗадаче.Attribute.Исполнитель" id="b6bd6058-775c-478d-8f5f-669e57cc1eb2"/>
+			<Metadata name="Document.узВводФактаПоЗадаче.TabularSection.Данные.Attribute.Руф_ВРасчет" id="ecf82f14-05eb-4167-b797-20109f414a8d"/>
+		</Metadata>
+		<Metadata name="Document.узВводФактаПоЗадаче.Form.ФормаДокумента" id="abd9338e-faed-4737-a052-22ea5403d0c6" configVersion="b561efa8cc47803304037a672ebaac1f2197b741"/>
+		<Metadata name="Document.узВводФактаПоЗадаче.Form.ФормаДокумента.Form" id="abd9338e-faed-4737-a052-22ea5403d0c6.0" configVersion="ce02f5bb14b950893d9c065f634d68085997ccf7"/>
+		<Metadata name="Document.узВводФактаПоЗадаче.Form.ФормаДокументаВводСЗадачи" id="a4dae789-4ec0-4abe-8c58-dfe7f88dbd23" configVersion="7036f178189bb349d538493145c6dee792bcadf9"/>
+		<Metadata name="Document.узВводФактаПоЗадаче.Form.ФормаДокументаВводСЗадачи.Form" id="a4dae789-4ec0-4abe-8c58-dfe7f88dbd23.0" configVersion="ea8d97dace5c15763129dabf93294ff399904023"/>
+		<Metadata name="Document.узВводФактаПоЗадаче.ObjectModule" id="88ea4cc7-608c-4394-8994-52ac9d28d2ac.0" configVersion="7cb4d4714094b64f027318226b9cf620c769ab31"/>
+		<Metadata name="Enum.Руф_ПозицииСМ" id="6fcbdef4-9c2f-4e44-b028-5ba7217852be" configVersion="bbecb3ca069bb9995a66f712f7b4583738fc4994">
+			<Metadata name="Enum.Руф_ПозицииСМ.EnumValue.УстановкаПП1С" id="3a0d280c-d117-46ac-8f38-e68893d812e9"/>
+			<Metadata name="Enum.Руф_ПозицииСМ.EnumValue.БЧВСчетКоробки" id="5e7cda72-26a1-4ea5-a0d4-4967791f7db6"/>
+			<Metadata name="Enum.Руф_ПозицииСМ.EnumValue.ЭЧ" id="868e481f-ee96-4697-b064-4fcc8b2425aa"/>
+		</Metadata>
+		<Metadata name="Enum.Руф_ЮрФизЛицо" id="a17399c1-e514-4417-b0bf-0b7d6ac07e89" configVersion="4058fed1899f0b3668e88ef1bfe7a612a06df121">
+			<Metadata name="Enum.Руф_ЮрФизЛицо.EnumValue.ФизическоеЛицо" id="1eec8f4a-894e-4920-a1ff-d4fc0d098469"/>
+			<Metadata name="Enum.Руф_ЮрФизЛицо.EnumValue.ЮридическоеЛицо" id="d6e6de31-3375-4c97-b1a6-198acb2bb378"/>
+		</Metadata>
+		<Metadata name="Enum.узОформлениеТекста" id="12ba013b-ad5c-4ad9-a281-87dd37d1b537" configVersion="f15863a48ca053b24b041681f3e9dd4af7372ca2">
+			<Metadata name="Enum.узОформлениеТекста.EnumValue.Markdown" id="003fc014-bba7-4fd0-aae0-6b4c8d414c9b"/>
+			<Metadata name="Enum.узОформлениеТекста.EnumValue.Текст" id="1fcf5b84-8590-4d90-b88f-ea6c50a19538"/>
+			<Metadata name="Enum.узОформлениеТекста.EnumValue.ФорматированныйТекст" id="e766c04b-8531-4ab1-80b5-7a8641ca4f0e"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="e42431f0-e0b5-4760-85e3-14fd830eb3dc" configVersion="719838b063893e8f3369dbec085c31ebb9a16630"/>
+		<Metadata name="Role.Руф_ПолныеПрава" id="e6a98410-86ce-4d1f-9f74-e8e3f50a659a" configVersion="c31e6ed93b8757d76f754512ef86c2eea1644958"/>
+		<Metadata name="ScheduledJob.Руф_ОбработкаСообщенийТелеграмм" id="eb0af7d8-7a88-4456-89e4-1c2bdec73cd7" configVersion="e27639e85600a3a0d6d9bf5915905ca20a4d4353"/>
+		<Metadata name="ScheduledJob.Руф_ОбработкаСообщенийТелеграмм.Schedule" id="eb0af7d8-7a88-4456-89e4-1c2bdec73cd7.0" configVersion="6e25f0084048d744cecda650a51707a338e6b0a6"/>
+		<Metadata name="Subsystem.узУправлениеЗадачами" id="b0420dff-ea04-4305-bc18-6b44fe532a67" configVersion="0e9ac7c8c6506d75b173cd84850a0014376bc84d"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Enum uuid="6fcbdef4-9c2f-4e44-b028-5ba7217852be">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.Руф_ПозицииСМ" category="Ref">
+				<xr:TypeId>fa1220a6-2ecc-45dc-8938-54ae75b8247c</xr:TypeId>
+				<xr:ValueId>5aa004f9-691a-4a23-9ce5-8fce72be9479</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.Руф_ПозицииСМ" category="Manager">
+				<xr:TypeId>cd178bdc-905f-4010-bd50-c0b4f3d18c66</xr:TypeId>
+				<xr:ValueId>3accc185-6f58-4846-9681-2f4d976d7de3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.Руф_ПозицииСМ" category="List">
+				<xr:TypeId>649c53e2-0ea5-4ce2-8d7b-815ae01f7c19</xr:TypeId>
+				<xr:ValueId>7ccaf738-2e34-4b2a-b6d8-621dc6e26e74</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Руф_ПозицииСМ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5e304b9a-8074-4728-b31f-216eb63642a1</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="868e481f-ee96-4697-b064-4fcc8b2425aa">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЭЧ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>345ad03b-9602-4d8c-9e2d-841be0aac2d5</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3a0d280c-d117-46ac-8f38-e68893d812e9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>УстановкаПП1С</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3f380519-249c-4e2f-a6bc-315dd7386b64</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5e7cda72-26a1-4ea5-a0d4-4967791f7db6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>БЧВСчетКоробки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3c44dd00-6378-418e-aca1-18c2e94bdca1</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

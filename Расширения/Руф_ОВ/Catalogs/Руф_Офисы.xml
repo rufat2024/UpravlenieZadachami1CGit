@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Catalog uuid="3e4378ad-a5bd-4290-b5f7-f78da1c3f67c">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Руф_Офисы" category="Object">
+				<xr:TypeId>c37336dc-0586-4432-b0c2-28b31938f20e</xr:TypeId>
+				<xr:ValueId>5721e8da-e38f-496d-9a5c-af74afd70b2a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Руф_Офисы" category="Ref">
+				<xr:TypeId>03a34c59-f8fd-4cf5-939a-7f21590bb6bd</xr:TypeId>
+				<xr:ValueId>38780206-d860-4eb5-ab80-50def65091ff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Руф_Офисы" category="Selection">
+				<xr:TypeId>e1e073e5-c370-4891-a1d7-880bb8c3e6dc</xr:TypeId>
+				<xr:ValueId>f638a927-60e5-416a-a981-fb77be3beedc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Руф_Офисы" category="List">
+				<xr:TypeId>71f0568b-991f-47ac-9c4b-c35bd80fe67c</xr:TypeId>
+				<xr:ValueId>990c72c7-84a4-4f3c-aa9b-f646d788ad30</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Руф_Офисы" category="Manager">
+				<xr:TypeId>db6a3d78-57dd-44b4-9437-8d10b3722ba1</xr:TypeId>
+				<xr:ValueId>b5379ed0-8c45-4b29-9f1d-fc4da2d182fc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Руф_Офисы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>fc6cdbd1-4cfe-405b-9056-58961779adbf</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

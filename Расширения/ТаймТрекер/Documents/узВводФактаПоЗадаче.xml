@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Document uuid="b81333e2-b690-4a06-b0f6-f5091c8d86e6">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.узВводФактаПоЗадаче" category="Object">
+				<xr:TypeId>29c9cccc-d85f-4741-a25f-09c70001eea1</xr:TypeId>
+				<xr:ValueId>009c837e-b3d1-4d5d-9aac-4b21194d204b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.узВводФактаПоЗадаче" category="Ref">
+				<xr:TypeId>a8620584-7719-4124-a678-7786ebdfc723</xr:TypeId>
+				<xr:ValueId>e3350a8d-a938-4a95-8699-266e5f6b48fe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.узВводФактаПоЗадаче" category="Selection">
+				<xr:TypeId>b966393c-017d-4257-bfbe-3cacbc015c2b</xr:TypeId>
+				<xr:ValueId>1fafbbf9-a7f8-4494-8102-6bb14ed2cc7b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.узВводФактаПоЗадаче" category="List">
+				<xr:TypeId>2481142e-883d-4470-b5c7-033fc2a9277a</xr:TypeId>
+				<xr:ValueId>40d999fc-2ed8-44ed-a264-8d65b0a13e3a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.узВводФактаПоЗадаче" category="Manager">
+				<xr:TypeId>3fd6522d-6d84-4a55-a6e6-b1686ab7a194</xr:TypeId>
+				<xr:ValueId>3bf291b1-f861-4811-9112-9f1a95d7d4f9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>узВводФактаПоЗадаче</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>08f21583-8edc-4d19-adca-be4c34fda329</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="14abd2e7-4b4c-4e4f-8001-a9874da925d9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Задача</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4ee02440-b10e-4222-9d85-c7796442a35d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.узЗадачи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fd80894b-e93b-48e4-8af2-3fe92519c698">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Исполнитель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bfa8f31a-528e-4191-ad23-c61c6b90a316</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="c1bef300-d430-46e2-b7f7-66bbed1bab2e">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.узВводФактаПоЗадаче.Данные" category="TabularSection">
+						<xr:TypeId>519a8852-6b71-47b5-93e5-b39369ddf641</xr:TypeId>
+						<xr:ValueId>4dda2690-d7f9-4bd8-ae89-c1f47cf0d557</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.узВводФактаПоЗадаче.Данные" category="TabularSectionRow">
+						<xr:TypeId>fe8be532-d29d-4e43-abcb-a32491efa5d9</xr:TypeId>
+						<xr:ValueId>3689366f-449e-4c59-81ef-a9ac0de3c9db</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Данные</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>173b30f6-e221-44d5-a42d-16ecf7a072ac</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="f836507b-3477-4b20-b475-058ac16ba23e">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДатаНачала</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>609b2e98-fc07-4302-8001-7c0772574117</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>DateTime</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b9a7d07c-3049-4c38-800c-39fdf4702662">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДатаОкончания</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>03ee4da8-8bbe-41d8-ac96-5a79066269d2</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>DateTime</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="2a1b1dce-a6ac-4fca-9308-99409187e9be">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Факт</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>e6daa04e-29d8-4c5a-9d41-03e46aeb0fbe</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>6</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f08d0829-4b88-45a9-9d52-8617ce9b9e45">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Примечание</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>59fa6060-21b8-4106-b5b6-1888179ae956</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>500</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

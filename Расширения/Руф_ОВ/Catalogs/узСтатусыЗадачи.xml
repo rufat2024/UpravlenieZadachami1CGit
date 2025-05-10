@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Catalog uuid="e4b3b737-2a9f-47a3-84b5-bba01cafb8e2">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.узСтатусыЗадачи" category="Object">
+				<xr:TypeId>48bd2740-1da2-42a3-9ebd-f71c0ad94701</xr:TypeId>
+				<xr:ValueId>7b422083-15bc-40bf-870a-1596f50a9265</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.узСтатусыЗадачи" category="Ref">
+				<xr:TypeId>60c39e20-8646-401c-9cc1-bf9438796a53</xr:TypeId>
+				<xr:ValueId>bc005371-7870-45dc-aeb7-fd27ce624bf2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.узСтатусыЗадачи" category="Selection">
+				<xr:TypeId>382d70cd-2786-4199-ae39-aa742e52be44</xr:TypeId>
+				<xr:ValueId>583790ba-e784-48af-9a02-2811991c7542</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.узСтатусыЗадачи" category="List">
+				<xr:TypeId>0c2c291a-fa6d-4bac-a94f-84d64429c4b2</xr:TypeId>
+				<xr:ValueId>be9b7c0f-3b40-4f12-8a0f-0056559cee1f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.узСтатусыЗадачи" category="Manager">
+				<xr:TypeId>8f704b65-0f57-4be3-b077-a5cb71ec2a4a</xr:TypeId>
+				<xr:ValueId>9a9a8207-d6a7-47fa-8d84-aa0b76f1a000</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>узСтатусыЗадачи</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a38a8fef-099f-48f6-8dc4-dd0163a87b6e</ExtendedConfigurationObject>
+			<CodeLength>11</CodeLength>
+			<DescriptionLength>150</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

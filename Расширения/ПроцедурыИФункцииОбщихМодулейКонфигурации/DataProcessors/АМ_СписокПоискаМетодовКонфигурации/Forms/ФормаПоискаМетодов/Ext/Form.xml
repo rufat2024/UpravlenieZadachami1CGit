@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnLoadDataFromSettingsAtServer">ПриЗагрузкеДанныхИзНастроекНаСервере</Event>
+		<Event name="7b15b3db-1cd0-4e1d-a74b-2c972c9e2226">ПриЗагрузкеПользовательскихНастроекНаСервере</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="ВыбраннаяКонфигурация" id="1">
+			<DataPath>Объект.ВыбраннаяКонфигурация</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВыбраннаяКонфигурацияКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ВыбраннаяКонфигурацияРасширеннаяПодсказка" id="3"/>
+			<Events>
+				<Event name="OnChange">ЗаполнитьПараметры</Event>
+			</Events>
+		</InputField>
+		<UsualGroup name="Группа1" id="68">
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="69"/>
+			<ChildItems>
+				<CheckBoxField name="ИскатьВНаименовании" id="53">
+					<DataPath>Объект.ИскатьВНаименовании</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ИскатьВНаименованииКонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="ИскатьВНаименованииРасширеннаяПодсказка" id="55"/>
+					<Events>
+						<Event name="OnChange">ЗаполнитьПараметры</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="ИскатьВОбластиМодуля" id="56">
+					<DataPath>Объект.ИскатьВОбластиМодуля</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ИскатьВОбластиМодуляКонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="ИскатьВОбластиМодуляРасширеннаяПодсказка" id="58"/>
+					<Events>
+						<Event name="OnChange">ЗаполнитьПараметры</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="ИскатьВНаименованииМодуля" id="59">
+					<DataPath>Объект.ИскатьВНаименованииМодуля</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ИскатьВНаименованииМодуляКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="ИскатьВНаименованииМодуляРасширеннаяПодсказка" id="61"/>
+					<Events>
+						<Event name="OnChange">ЗаполнитьПараметры</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="ИскатьВКатегории" id="62">
+					<DataPath>Объект.ИскатьВКатегории</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ИскатьВКатегорииКонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="ИскатьВКатегорииРасширеннаяПодсказка" id="64"/>
+					<Events>
+						<Event name="OnChange">ЗаполнитьПараметры</Event>
+					</Events>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="СтрокаПоискаРеквизитОбработки" id="65">
+			<DataPath>Объект.СтрокаПоискаРеквизитОбработки</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Строка поиска</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СтрокаПоискаРеквизитОбработкиКонтекстноеМеню" id="66"/>
+			<ExtendedTooltip name="СтрокаПоискаРеквизитОбработкиРасширеннаяПодсказка" id="67"/>
+			<Events>
+				<Event name="OnChange">ЗаполнитьПараметры</Event>
+			</Events>
+		</InputField>
+		<Table name="СписокМетодов" id="4">
+			<Representation>List</Representation>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>СписокМетодов</DataPath>
+			<RowPictureDataPath>СписокМетодов.DefaultPicture</RowPictureDataPath>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+			<ContextMenu name="СписокМетодовКонтекстноеМеню" id="5"/>
+			<AutoCommandBar name="СписокМетодовКоманднаяПанель" id="6"/>
+			<ExtendedTooltip name="СписокМетодовРасширеннаяПодсказка" id="7"/>
+			<SearchStringAddition name="СписокМетодовСтрокаПоиска" id="8">
+				<AdditionSource>
+					<Item>СписокМетодов</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокМетодовСтрокаПоискаКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="СписокМетодовСтрокаПоискаРасширеннаяПодсказка" id="10"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокМетодовСостояниеПросмотра" id="11">
+				<AdditionSource>
+					<Item>СписокМетодов</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокМетодовСостояниеПросмотраКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="СписокМетодовСостояниеПросмотраРасширеннаяПодсказка" id="13"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокМетодовУправлениеПоиском" id="14">
+				<AdditionSource>
+					<Item>СписокМетодов</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокМетодовУправлениеПоискомКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="СписокМетодовУправлениеПоискомРасширеннаяПодсказка" id="16"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">СписокМетодовВыбор</Event>
+			</Events>
+			<ChildItems>
+				<InputField name="СписокМетодовМетод" id="26">
+					<DataPath>СписокМетодов.Метод</DataPath>
+					<EditMode>Directly</EditMode>
+					<Width>26</Width>
+					<OpenButton>true</OpenButton>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СписокМетодовМетодКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="СписокМетодовМетодРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<LabelField name="СписокМетодовКатегорияМетодаПолноеНаименование" id="23">
+					<DataPath>СписокМетодов.КатегорияМетодаПолноеНаименование</DataPath>
+					<ContextMenu name="СписокМетодовКатегорияМетодаПолноеНаименованиеКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="СписокМетодовКатегорияМетодаПолноеНаименованиеРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<LabelField name="СписокМетодовМодульКонфигурации" id="35">
+					<DataPath>СписокМетодов.МодульКонфигурации</DataPath>
+					<Width>32</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ContextMenu name="СписокМетодовМодульКонфигурацииКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="СписокМетодовМодульКонфигурацииРасширеннаяПодсказка" id="37"/>
+				</LabelField>
+				<LabelField name="СписокМетодовОбластьМодуля" id="44">
+					<DataPath>СписокМетодов.ОбластьМодуля</DataPath>
+					<Width>25</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ContextMenu name="СписокМетодовОбластьМодуляКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="СписокМетодовОбластьМодуляРасширеннаяПодсказка" id="46"/>
+				</LabelField>
+				<LabelField name="СписокМетодовВидМетода" id="20">
+					<DataPath>СписокМетодов.ВидМетода</DataPath>
+					<ContextMenu name="СписокМетодовВидМетодаКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="СписокМетодовВидМетодаРасширеннаяПодсказка" id="22"/>
+				</LabelField>
+				<LabelField name="СписокМетодовНаименованиеМетода" id="41">
+					<DataPath>СписокМетодов.НаименованиеМетода</DataPath>
+					<Visible>false</Visible>
+					<ContextMenu name="СписокМетодовНаименованиеМетодаКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="СписокМетодовНаименованиеМетодаРасширеннаяПодсказка" id="43"/>
+				</LabelField>
+				<LabelField name="СписокМетодовВажно" id="17">
+					<DataPath>СписокМетодов.Важно</DataPath>
+					<ContextMenu name="СписокМетодовВажноКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="СписокМетодовВажноРасширеннаяПодсказка" id="19"/>
+				</LabelField>
+				<LabelField name="СписокМетодовОбщееОписание" id="47">
+					<DataPath>СписокМетодов.ОбщееОписание</DataPath>
+					<ContextMenu name="СписокМетодовОбщееОписаниеКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="СписокМетодовОбщееОписаниеРасширеннаяПодсказка" id="49"/>
+				</LabelField>
+				<CheckBoxField name="СписокМетодовМетодНеТиповой" id="29">
+					<DataPath>СписокМетодов.МетодНеТиповой</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СписокМетодовМетодНеТиповойКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="СписокМетодовМетодНеТиповойРасширеннаяПодсказка" id="31"/>
+				</CheckBoxField>
+				<CheckBoxField name="СписокМетодовМодульГлобальный" id="32">
+					<DataPath>СписокМетодов.МодульГлобальный</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СписокМетодовМодульГлобальныйКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="СписокМетодовМодульГлобальныйРасширеннаяПодсказка" id="34"/>
+				</CheckBoxField>
+				<CheckBoxField name="СписокМетодовМодульНеТиповой" id="38">
+					<DataPath>СписокМетодов.МодульНеТиповой</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СписокМетодовМодульНеТиповойКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="СписокМетодовМодульНеТиповойРасширеннаяПодсказка" id="40"/>
+				</CheckBoxField>
+				<LabelField name="СписокМетодовСтандартнаяКартинка" id="50">
+					<DataPath>СписокМетодов.DefaultPicture</DataPath>
+					<ContextMenu name="СписокМетодовСтандартнаяКартинкаКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="СписокМетодовСтандартнаяКартинкаРасширеннаяПодсказка" id="52"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.АМ_СписокПоискаМетодовКонфигурации</v8:Type>
+			</Type>
+			<Save>
+				<Field>Объект.ВыбраннаяКонфигурация</Field>
+				<Field>Объект.ИскатьВКатегории</Field>
+				<Field>Объект.ИскатьВНаименовании</Field>
+				<Field>Объект.ИскатьВНаименованииМодуля</Field>
+				<Field>Объект.ИскатьВОбластиМодуля</Field>
+				<Field>Объект.СтрокаПоискаРеквизитОбработки</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="СписокМетодов" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список методов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<UseAlways>
+				<Field>СписокМетодов.Метод</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>false</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	ВЫБОР
+		КОГДА АМ_ПроцедурыИФункции.Владелец ССЫЛКА Справочник.АМ_ОбщиеМодули
+			ТОГДА ВЫБОР
+					КОГДА АМ_ПроцедурыИФункции.Владелец.Глобальный
+						ТОГДА АМ_ПроцедурыИФункции.Владелец.Наименование + "(Гл)"
+					ИНАЧЕ АМ_ПроцедурыИФункции.Владелец.Наименование
+				КОНЕЦ
+		КОГДА АМ_ПроцедурыИФункции.Владелец ССЫЛКА Справочник.АМ_МодулиОбъектовМетаданных
+			ТОГДА АМ_ПроцедурыИФункции.Владелец.ТипОбъектаМД + "." + АМ_ПроцедурыИФункции.Владелец.Наименование
+		ИНАЧЕ ""
+	КОНЕЦ КАК МодульКонфигурации,
+	ВЫБОР
+		КОГДА АМ_ПроцедурыИФункции.Владелец ССЫЛКА Справочник.АМ_ОбщиеМодули
+			ТОГДА АМ_ПроцедурыИФункции.Владелец.Глобальный
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК МодульГлобальный,
+	АМ_ПроцедурыИФункции.Владелец.НеТиповой КАК МодульНеТиповой,
+	АМ_ПроцедурыИФункции.ОбластьМодуля КАК ОбластьМодуля,
+	АМ_ПроцедурыИФункции.ВидМетода КАК ВидМетода,
+	АМ_ПроцедурыИФункции.Ссылка КАК Метод,
+	АМ_ПроцедурыИФункции.Наименование КАК НаименованиеМетода,
+	АМ_ПроцедурыИФункции.НеТиповая КАК МетодНеТиповой,
+	АМ_ПроцедурыИФункции.ОбщееОписание КАК ОбщееОписание,
+	АМ_ПроцедурыИФункции.Важно КАК Важно,
+	АМ_ПроцедурыИФункцииКатегории.КатегорияМетода.ПолноеНаименованиеКатегории КАК КатегорияМетодаПолноеНаименование
+ИЗ
+	Справочник.АМ_ПроцедурыИФункции КАК АМ_ПроцедурыИФункции
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.АМ_ПроцедурыИФункции.Категории КАК АМ_ПроцедурыИФункцииКатегории
+		ПО (АМ_ПроцедурыИФункцииКатегории.Ссылка = АМ_ПроцедурыИФункции.Ссылка)
+ГДЕ
+	АМ_ПроцедурыИФункции.Владелец.Владелец = &amp;ВыбраннаяКонфигурация
+	И НЕ АМ_ПроцедурыИФункции.ПометкаУдаления
+	И (ВЫБОР
+				КОГДА &amp;ИскатьВНаименовании
+					ТОГДА АМ_ПроцедурыИФункции.Наименование ПОДОБНО &amp;СтрокаПоиска
+				ИНАЧЕ ЛОЖЬ
+			КОНЕЦ
+			ИЛИ ВЫБОР
+				КОГДА &amp;ИскатьВОбластиМодуля
+					ТОГДА АМ_ПроцедурыИФункции.ОбластьМодуля ПОДОБНО &amp;СтрокаПоиска
+				ИНАЧЕ ЛОЖЬ
+			КОНЕЦ
+			ИЛИ ВЫБОР
+				КОГДА &amp;ИскатьВНаименованииМодуля
+					ТОГДА АМ_ПроцедурыИФункции.Владелец.Наименование ПОДОБНО &amp;СтрокаПоиска
+				ИНАЧЕ ЛОЖЬ
+			КОНЕЦ
+			ИЛИ ВЫБОР
+				КОГДА &amp;ИскатьВКатегории
+						И НЕ АМ_ПроцедурыИФункцииКатегории.Ссылка ЕСТЬ NULL
+					ТОГДА АМ_ПроцедурыИФункцииКатегории.КатегорияМетода.ПолноеНаименованиеКатегории ПОДОБНО &amp;СтрокаПоиска
+				ИНАЧЕ ЛОЖЬ
+			КОНЕЦ)</QueryText>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаполнитьПараметры" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить параметры</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить параметры</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьПараметры</Action>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<AccumulationRegister uuid="741b85d1-8398-43de-a1c9-251f91403ab2">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.узФактПоЗадачам" category="Record">
+				<xr:TypeId>cce252c2-038e-4e4b-987b-a587c461a2e6</xr:TypeId>
+				<xr:ValueId>101ecc75-9387-47d5-9578-f68334191015</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.узФактПоЗадачам" category="Manager">
+				<xr:TypeId>41e367ce-aa89-41a7-859d-52edc938e685</xr:TypeId>
+				<xr:ValueId>b1d8c9b5-cacd-4b25-a2ea-46e2ddc88325</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.узФактПоЗадачам" category="Selection">
+				<xr:TypeId>9a54d5d9-6c24-42a7-b568-f5def92cd0f1</xr:TypeId>
+				<xr:ValueId>4c198f34-2e89-46a6-878f-09fb0b392d04</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.узФактПоЗадачам" category="List">
+				<xr:TypeId>36317e3d-d126-48c6-b4fb-545c6be6be1a</xr:TypeId>
+				<xr:ValueId>6ef30508-e119-4623-8abc-bc815a6c3fb6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.узФактПоЗадачам" category="RecordSet">
+				<xr:TypeId>909d4c68-5d9f-4ffe-9057-286e97a99c54</xr:TypeId>
+				<xr:ValueId>fddd0a67-e6ab-404b-b435-0745b17293e0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.узФактПоЗадачам" category="RecordKey">
+				<xr:TypeId>96a9add6-82ab-4656-8b61-439cd550b8b8</xr:TypeId>
+				<xr:ValueId>4966cea9-e292-4f71-b8ee-834fa3a37f79</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>узФактПоЗадачам</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Факт по задачам (не используется)</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<ExtendedConfigurationObject>249f5ca2-ec81-4b32-ade9-d65659f850ec</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects/>
+	</AccumulationRegister>
+</MetaDataObject>

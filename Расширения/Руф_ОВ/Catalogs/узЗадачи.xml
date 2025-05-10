@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Catalog uuid="c1efa2eb-885f-454c-9e40-fe9f702688a3">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.узЗадачи" category="Object">
+				<xr:TypeId>fb51054b-f96a-41db-9e4c-2800d89204e4</xr:TypeId>
+				<xr:ValueId>3f863560-ddb0-4477-9765-65c29de197b2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.узЗадачи" category="Ref">
+				<xr:TypeId>75c7f1c1-63bc-4d60-9713-53c3884db501</xr:TypeId>
+				<xr:ValueId>f123a23c-7246-4b72-a0c8-52e072345fc6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.узЗадачи" category="Selection">
+				<xr:TypeId>98ef079a-0ebe-47fb-935e-e324b074b40a</xr:TypeId>
+				<xr:ValueId>1d904bce-ec25-4b29-a9ab-40ce2395f3ee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.узЗадачи" category="List">
+				<xr:TypeId>cf7dfb06-9e20-4c90-a751-55302bc1dd86</xr:TypeId>
+				<xr:ValueId>082a05a1-deb9-487d-847e-5bf611d68c3e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.узЗадачи" category="Manager">
+				<xr:TypeId>b2f8a091-aedd-4df6-ae13-686cb90e7dc4</xr:TypeId>
+				<xr:ValueId>f4fc5c9c-1221-4d25-b0c3-8a92d9edb041</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>узЗадачи</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>33ee2945-a302-44ac-a8b6-152205a57775</ExtendedConfigurationObject>
+			<CodeLength>11</CodeLength>
+			<CodeType>Number</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="64abf262-26e9-43f5-add8-632924778b0e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Руф_Постановщик</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f33c0223-f09f-4d55-994e-c118153b6676</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e0be6499-e1c2-460b-a35a-568bd260c7c6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Руф_Наряд</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>96859d50-35fe-47c6-b3cd-9434a87ec0ce</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Руф_Наряды</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6a217701-83f2-4fc0-accb-8180beac55ca">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Руф_ТипВремени</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e723dbfc-6a0b-45de-b1b0-e9188b6e668f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Руф_ТипыВремени</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1bde4866-7cf2-4627-b3e7-9fdc488d10f3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Руф_НомерФорумаВнешнейЗаявки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>51009c14-69d5-4de1-b19a-846ad3a49320</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5a120571-598c-47e2-b10e-637aea1519ec">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>90257ba3-0c0f-4e35-ba56-2bf1c99972fd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.узКонтрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

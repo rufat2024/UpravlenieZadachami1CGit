@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Конфигурация" id="1">
+			<DataPath>Запись.Конфигурация</DataPath>
+			<ContextMenu name="КонфигурацияКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КонфигурацияРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<UsualGroup name="Группа1" id="7" DisplayImportance="Low">
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="8"/>
+			<ChildItems>
+				<UsualGroup name="Группа2" id="23">
+					<Behavior>Usual</Behavior>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="24"/>
+					<ChildItems>
+						<InputField name="КаталогПути" id="4">
+							<DataPath>Запись.КаталогПути</DataPath>
+							<DropListButton>false</DropListButton>
+							<ChoiceButton>false</ChoiceButton>
+							<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+							<ClearButton>false</ClearButton>
+							<SpinButton>false</SpinButton>
+							<OpenButton>false</OpenButton>
+							<CreateButton>false</CreateButton>
+							<ChooseType>false</ChooseType>
+							<AutoShowOpenButtonMode>Always</AutoShowOpenButtonMode>
+							<ContextMenu name="КаталогПутиКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="КаталогПутиРасширеннаяПодсказка" id="6"/>
+						</InputField>
+						<Button name="ВыбратьКаталог" id="9">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ВыбратьКаталог</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>...</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ВыбратьКаталогРасширеннаяПодсказка" id="10"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<InputField name="ИмяСервера" id="11">
+					<DataPath>Запись.ИмяСервера</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ИмяСервераКонтекстноеМеню" id="12"/>
+					<ExtendedTooltip name="ИмяСервераРасширеннаяПодсказка" id="13"/>
+				</InputField>
+				<InputField name="ИмяБазы" id="14">
+					<DataPath>Запись.ИмяБазы</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ИмяБазыКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="ИмяБазыРасширеннаяПодсказка" id="16"/>
+				</InputField>
+				<InputField name="ИмяПользователя" id="17">
+					<DataPath>Запись.ИмяПользователя</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ИмяПользователяКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ИмяПользователяРасширеннаяПодсказка" id="19"/>
+				</InputField>
+				<InputField name="ПарольПользователя" id="20">
+					<DataPath>Запись.ПарольПользователя</DataPath>
+					<PasswordMode>true</PasswordMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПарольПользователяКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ПарольПользователяРасширеннаяПодсказка" id="22"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.АМ_КаталогиФайловМодулейКонфигураций</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВыбратьКаталог" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать каталог</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать каталог</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыбратьКаталог</Action>
+		</Command>
+	</Commands>
+</Form>

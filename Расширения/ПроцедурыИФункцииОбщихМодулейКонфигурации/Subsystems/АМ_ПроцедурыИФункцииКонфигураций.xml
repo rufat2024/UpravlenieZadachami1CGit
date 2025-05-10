@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Subsystem uuid="5146e1af-18ed-4721-9ff1-c7dd60ed7a90">
+		<Properties>
+			<Name>АМ_ПроцедурыИФункцииКонфигураций</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Процедуры и функции конфигураций</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture>
+				<xr:Ref>CommonPicture.АМ_ОбщаяКартинка1</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.узКонфигурации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.АМ_ОбщиеМодули</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.АМ_ПроцедурыИФункции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.АМ_Параметры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пользователи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.АМ_ТипыЗначений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.АМ_ВидыПараметровПроцедурФункций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.АМ_ВидыМетодов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.АМ_ВидыКонтекста</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.АМ_ПользовательПроцедурПолные</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.АМ_АнализФайловМодулейКонфигурации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.АМ_КаталогиФайловМодулейКонфигураций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.АМ_ВидПовторногоИспользованияМодуля</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.АМ_РаботаСТекстомПроцедурИФункцийСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.АМ_РаботаСТекстомПроцедурИФункцийКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.АМ_РаботаСТекстомПроцедурИФункцийСерверПовторноеИспользование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.АМ_КатегорииПроцедурИФункций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.АМ_ОбщаяКартинка1</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.АМ_ОбщаяИнформацияПоФункциям</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.АМ_СписокПоискаМетодовКонфигурации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.АМ_ТипыМодулейОбъектовМетаданных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.АМ_МодулиОбъектовМетаданных</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

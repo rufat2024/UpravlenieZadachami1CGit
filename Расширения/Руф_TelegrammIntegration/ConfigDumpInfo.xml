@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.19">
+	<ConfigVersions>
+		<Metadata name="Catalog.Руф_ПользователиTg" id="e27d33c7-f1e0-400a-bc96-dbc21f030004" configVersion="9a54180194ca0f340f623cb6138ddfc7d561c4bb">
+			<Metadata name="Catalog.Руф_ПользователиTg.Attribute.has_main_web_app" id="0464962a-46da-414a-8e33-0698e5994bb3"/>
+			<Metadata name="Catalog.Руф_ПользователиTg.Attribute.is_premium" id="0ee13314-2d68-4079-98b2-61d0623be25e"/>
+			<Metadata name="Catalog.Руф_ПользователиTg.Attribute.last_name" id="16f11041-d721-481e-b099-59e38dfdc366"/>
+			<Metadata name="Catalog.Руф_ПользователиTg.Attribute.can_join_groups" id="26219118-42c4-4ff2-adff-710238ab51ac"/>
+			<Metadata name="Catalog.Руф_ПользователиTg.Attribute.first_name" id="396b19fa-8782-4847-8793-fa336a071bfc"/>
+			<Metadata name="Catalog.Руф_ПользователиTg.Attribute.added_to_attachment_menu" id="49ca8bad-d19c-41de-aedd-9051a960efa1"/>
+			<Metadata name="Catalog.Руф_ПользователиTg.Attribute.supports_inline_queries" id="841e2bda-5e7d-4dcf-ae1c-7a614ad45bc5"/>
+			<Metadata name="Catalog.Руф_ПользователиTg.Attribute.is_bot" id="914864e9-962d-454b-bca0-71dcf4136067"/>
+			<Metadata name="Catalog.Руф_ПользователиTg.Attribute.can_connect_to_business" id="a6148272-937d-4647-b102-564d84425a2e"/>
+			<Metadata name="Catalog.Руф_ПользователиTg.Attribute.username" id="b7cf4a9e-ad44-4bd9-b521-f2f58dd1a47a"/>
+			<Metadata name="Catalog.Руф_ПользователиTg.Attribute.language_code" id="bd290376-a389-4c8d-bcef-7c84885c5d80"/>
+			<Metadata name="Catalog.Руф_ПользователиTg.Attribute.can_read_all_group_messages" id="fd8a8616-1058-45c7-b510-57edb7ede28c"/>
+		</Metadata>
+		<Metadata name="Catalog.Руф_ЧатыTg" id="832c8050-01a8-47c1-9174-ce05f28a5549" configVersion="8d450a29edf9e2a4f37d3cbf446c78d3941e8b78">
+			<Metadata name="Catalog.Руф_ЧатыTg.Attribute.username" id="986d45aa-e7d0-44fb-8c40-746c07f7dd0e"/>
+			<Metadata name="Catalog.Руф_ЧатыTg.Attribute.last_name" id="abbc9038-4f39-48bf-a7e4-81e1239733d4"/>
+			<Metadata name="Catalog.Руф_ЧатыTg.Attribute.is_forum" id="c267ec30-f11c-4223-b8d8-606d18ca8ff5"/>
+			<Metadata name="Catalog.Руф_ЧатыTg.Attribute.first_name" id="c74e290d-c8ec-4ae3-a6bc-49dc7bb6d35f"/>
+			<Metadata name="Catalog.Руф_ЧатыTg.Attribute.title" id="d8291ab4-96ab-45b2-8507-e70cf92fc0c2"/>
+			<Metadata name="Catalog.Руф_ЧатыTg.Attribute.type" id="decaf5e2-e598-4841-8ccc-6d3b1e304723"/>
+		</Metadata>
+		<Metadata name="Configuration.Руф_TelegrammIntegration" id="8d193126-06a0-4204-adf5-edb194b261fb" configVersion="d5af3e47c3497025098de0dc1fcabc3fea2486df"/>
+		<Metadata name="Enum.Руф_ТипыЧатов" id="e41037f6-97d6-4416-9d60-9dcdff8a0bcc" configVersion="d96116ad58330ccc963c9f55abadc6e32f3d2c79">
+			<Metadata name="Enum.Руф_ТипыЧатов.EnumValue.supergroup" id="2e1021d9-acba-4841-815a-7c63989ce7f5"/>
+			<Metadata name="Enum.Руф_ТипыЧатов.EnumValue.channel" id="35693a48-0565-4029-8cba-0c78188324e3"/>
+			<Metadata name="Enum.Руф_ТипыЧатов.EnumValue.private" id="cf61dc64-29da-42eb-a633-37a187e540ec"/>
+			<Metadata name="Enum.Руф_ТипыЧатов.EnumValue.group" id="e8a2ea87-6f5b-405b-8f13-764be1e22531"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="3279dd59-8e15-4c37-8fef-0359291d74fc" configVersion="9ea205f123311bb9f63cc898c1c96407c4eb4819"/>
+		<Metadata name="Role.Руф_TelegrammIntegration_ПолныеПрава" id="58c12539-a373-4c8b-abba-3041d3c6afda" configVersion="f8899a4028e8a1fa8fe5d73bb72ae8faedd39e17"/>
+		<Metadata name="Subsystem.Руф_TelegrammIntegration" id="38c31c1c-04bf-40a7-b013-4b91ae8ebd7e" configVersion="b8172ac295c249e3fc8eceee2a85cf76e5ee5604"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

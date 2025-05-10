@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<DataProcessor uuid="f975968c-376c-48c1-abce-42f7121b5441">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.узКанбанДоска" category="Object">
+				<xr:TypeId>5d9c7207-3d0f-44c7-a3b9-e11aa600dee8</xr:TypeId>
+				<xr:ValueId>f0b4e0cc-68e1-4200-a576-fd82277049dd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.узКанбанДоска" category="Manager">
+				<xr:TypeId>e18e94d4-a23a-48d9-a74c-9360626da93d</xr:TypeId>
+				<xr:ValueId>d5c7d201-6070-48a7-8837-6ceeb4e7edc6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>узКанбанДоска</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>af7118e9-5e6e-4b20-a189-1d8ef16722cc</ExtendedConfigurationObject>
+			<DefaultForm>DataProcessor.узКанбанДоска.Form.ФормаДинамическая</DefaultForm>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="4d216455-d286-40e9-8b59-79df5f3207cb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АдресВременногоХранилища</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d1bf6ec0-a45e-479c-83fc-7596c45e0110</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="94b7f7c3-b073-4a33-b5d3-c53f19eda0e0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Наблюдатель</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ef9633a3-c450-417c-b7a0-e09583347965</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d89ca612-3764-4fe2-ac5b-c04b7581e5bc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Показывать3СтрокуВКарточкеЗадачи</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a3e83324-cbd6-4703-8461-3986ce498357</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0a74d2d0-d836-4cd9-8c31-8181aa81e078">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПоказыватьЗаказчика</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>436592f1-b5ff-46b7-a288-7a3cddfa38b0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c755fbb3-af79-48c3-877b-44ab90ca1940">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтображениеПисемПоЗадачам</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>33a8d6a8-8b23-41d0-82a9-71ea7ef90d5b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.узОтображениеПисемПоЗадачамНаДоске</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5cc492ec-45de-4ff0-820e-95cb1dd0e866">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтображениеФайловЗадач</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e087ce69-6d6f-489a-847b-9bdffd1a4bdc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.узОтображениеФайловЗадачНаДоске</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4762f8f1-1fc3-41b8-a5db-95c10d261063">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтображениеЧеклистаЗадач</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>88b827e1-3122-41d7-a0d0-454b3a1ae9d6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.узОтображениеЧеклистаЗадачНаДоске</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="d4abb899-b4f6-4d3b-851c-423521d7d479">
+				<InternalInfo>
+					<xr:GeneratedType name="DataProcessorTabularSection.узКанбанДоска.ТЧЗадачи" category="TabularSection">
+						<xr:TypeId>6012a945-eb58-4bb1-bf56-e12e650072e4</xr:TypeId>
+						<xr:ValueId>f1ad6c0e-7ef8-4fe0-b1da-f53d189c43d3</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.узКанбанДоска.ТЧЗадачи" category="TabularSectionRow">
+						<xr:TypeId>38b77368-d7a8-4667-8660-65bb7762061b</xr:TypeId>
+						<xr:ValueId>cda07bba-7bd9-4c90-8442-6235ca7f58be</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТЧЗадачи</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>df049fed-f241-4ab8-bf0b-3a046feb2d8f</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+			<TabularSection uuid="3c2e2ed8-0983-4703-a431-c16b11b02e4e">
+				<InternalInfo>
+					<xr:GeneratedType name="DataProcessorTabularSection.узКанбанДоска.ТЧНастройкиКолонок" category="TabularSection">
+						<xr:TypeId>393e01f5-8f98-4710-b6af-cea07c0cf8de</xr:TypeId>
+						<xr:ValueId>e15df621-4ebd-4e25-a177-4d30fdab1c94</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.узКанбанДоска.ТЧНастройкиКолонок" category="TabularSectionRow">
+						<xr:TypeId>0039632d-4758-4a82-ad81-c26bb02feba9</xr:TypeId>
+						<xr:ValueId>de73203e-a302-4536-a622-e65d09006548</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТЧНастройкиКолонок</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fc9c0693-c970-4285-be29-6fac7fdd05e6</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="2b576797-2cb0-4987-a40a-4e2b576a8949">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Статус</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>085c7166-a161-4847-9c5e-5837b110adce</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.узСтатусыЗадачи</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5231e3fc-da20-4fe6-9f78-831d4f39eecd">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Видимость</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>4211ceb2-3b09-462d-8872-0f9961a036b4</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="0e34d1d2-b1ba-4fb4-89a4-4b9a65bf39c7">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Группа</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>d9d70bdf-4d2b-4117-8130-6e7460db309f</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>2</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="22114b47-b72a-4349-ae54-c968e62f55f9">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ИмяПредопределенныхДанных</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>59d582fe-a49c-47a4-8dae-3ec2844e778b</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>150</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>ФормаДинамическая</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

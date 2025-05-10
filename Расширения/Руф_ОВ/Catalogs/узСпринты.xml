@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Catalog uuid="363739f4-b667-432f-a46a-954174674f20">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.узСпринты" category="Object">
+				<xr:TypeId>fb7bb8cd-c272-45e5-9e0e-1efa8f593f5b</xr:TypeId>
+				<xr:ValueId>0f07b48e-446f-4798-9ddb-551fd33c92ba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.узСпринты" category="Ref">
+				<xr:TypeId>e71a2811-e632-4891-b476-709c46b47ace</xr:TypeId>
+				<xr:ValueId>95e2d1c5-cadf-4d4f-93d9-488482497e0e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.узСпринты" category="Selection">
+				<xr:TypeId>c7204ce3-7177-4e49-8f69-9a90a3c07ad5</xr:TypeId>
+				<xr:ValueId>5d13e3d3-051a-4178-b062-6cd47c65ad0b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.узСпринты" category="List">
+				<xr:TypeId>f62b8ff0-da8c-4dc5-ac42-13f2aac76e1a</xr:TypeId>
+				<xr:ValueId>a3d361f1-b0e0-4e46-997b-985460daeb8e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.узСпринты" category="Manager">
+				<xr:TypeId>5504a361-589e-46a8-8f50-edcf3241af9f</xr:TypeId>
+				<xr:ValueId>920ca4c2-a663-4845-ad95-9222c2e2ec78</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>узСпринты</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>dbc451f0-9f98-43d1-808f-266c2fdba4ee</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

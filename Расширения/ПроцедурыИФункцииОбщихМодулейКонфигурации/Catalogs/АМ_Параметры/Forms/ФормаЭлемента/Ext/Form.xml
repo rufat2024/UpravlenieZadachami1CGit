@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="OnClose">ПриЗакрытии</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="Группа1" id="47">
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="48"/>
+			<ChildItems>
+				<Page name="ОсновныеЗначения" id="49">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основные значения</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основные значения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ОсновныеЗначенияРасширеннаяПодсказка" id="50"/>
+					<ChildItems>
+						<InputField name="Владелец" id="4">
+							<DataPath>Объект.Owner</DataPath>
+							<Visible>false</Visible>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ВладелецКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="6"/>
+						</InputField>
+						<InputField name="Родитель" id="7">
+							<DataPath>Объект.Parent</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
+						</InputField>
+						<InputField name="Наименование" id="1">
+							<DataPath>Объект.Description</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
+						</InputField>
+						<InputField name="ОсновнойТипПараметра" id="25">
+							<DataPath>Объект.ОсновнойТипПараметра</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ОсновнойТипПараметраКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ОсновнойТипПараметраРасширеннаяПодсказка" id="27"/>
+							<Events>
+								<Event name="ChoiceProcessing">ОсновнойТипПараметраОбработкаВыбора</Event>
+							</Events>
+						</InputField>
+						<InputField name="ТекстовоеОписание" id="22">
+							<DataPath>Объект.ТекстовоеОписание</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MultiLine>true</MultiLine>
+							<ExtendedEdit>true</ExtendedEdit>
+							<ContextMenu name="ТекстовоеОписаниеКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ТекстовоеОписаниеРасширеннаяПодсказка" id="24"/>
+						</InputField>
+						<InputField name="ВидПараметра" id="10">
+							<DataPath>Объект.ВидПараметра</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ВидПараметраКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="ВидПараметраРасширеннаяПодсказка" id="12"/>
+						</InputField>
+						<InputField name="ПорядокВВызове" id="13">
+							<DataPath>Объект.ПорядокВВызове</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ПорядокВВызовеКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ПорядокВВызовеРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<CheckBoxField name="Обязательный" id="16">
+							<DataPath>Объект.Обязательный</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ОбязательныйКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ОбязательныйРасширеннаяПодсказка" id="18"/>
+						</CheckBoxField>
+						<InputField name="ЗначениеПоУмолчанию" id="19">
+							<DataPath>Объект.ЗначениеПоУмолчанию</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЗначениеПоУмолчаниюКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ЗначениеПоУмолчаниюРасширеннаяПодсказка" id="21"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="ТипыЗначений" id="51">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Типы значений</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Типы значений</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ТипыЗначенийРасширеннаяПодсказка" id="52"/>
+					<ChildItems>
+						<Table name="ТипыПараметров" id="28">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ТипыПараметров</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ТипыПараметровКонтекстноеМеню" id="29"/>
+							<AutoCommandBar name="ТипыПараметровКоманднаяПанель" id="30"/>
+							<ExtendedTooltip name="ТипыПараметровРасширеннаяПодсказка" id="31"/>
+							<SearchStringAddition name="ТипыПараметровСтрокаПоиска" id="32">
+								<AdditionSource>
+									<Item>ТипыПараметров</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТипыПараметровСтрокаПоискаКонтекстноеМеню" id="33"/>
+								<ExtendedTooltip name="ТипыПараметровСтрокаПоискаРасширеннаяПодсказка" id="34"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ТипыПараметровСостояниеПросмотра" id="35">
+								<AdditionSource>
+									<Item>ТипыПараметров</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТипыПараметровСостояниеПросмотраКонтекстноеМеню" id="36"/>
+								<ExtendedTooltip name="ТипыПараметровСостояниеПросмотраРасширеннаяПодсказка" id="37"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ТипыПараметровУправлениеПоиском" id="38">
+								<AdditionSource>
+									<Item>ТипыПараметров</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ТипыПараметровУправлениеПоискомКонтекстноеМеню" id="39"/>
+								<ExtendedTooltip name="ТипыПараметровУправлениеПоискомРасширеннаяПодсказка" id="40"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="OnChange">ТипыПараметровПриИзменении</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="ТипыПараметровНомерСтроки" id="41">
+									<DataPath>Объект.ТипыПараметров.LineNumber</DataPath>
+									<Visible>false</Visible>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ТипыПараметровНомерСтрокиКонтекстноеМеню" id="42"/>
+									<ExtendedTooltip name="ТипыПараметровНомерСтрокиРасширеннаяПодсказка" id="43"/>
+								</LabelField>
+								<InputField name="ТипыПараметровТипПараметра" id="44">
+									<DataPath>Объект.ТипыПараметров.ТипПараметра</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>10</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<ContextMenu name="ТипыПараметровТипПараметраКонтекстноеМеню" id="45"/>
+									<ExtendedTooltip name="ТипыПараметровТипПараметраРасширеннаяПодсказка" id="46"/>
+								</InputField>
+								<InputField name="ТипыПараметровОписаниеПараметра" id="53">
+									<DataPath>Объект.ТипыПараметров.ОписаниеПараметра</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<MultiLine>true</MultiLine>
+									<ExtendedEdit>true</ExtendedEdit>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТипыПараметровОписаниеПараметраКонтекстноеМеню" id="54"/>
+									<ExtendedTooltip name="ТипыПараметровОписаниеПараметраРасширеннаяПодсказка" id="55"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.АМ_Параметры</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

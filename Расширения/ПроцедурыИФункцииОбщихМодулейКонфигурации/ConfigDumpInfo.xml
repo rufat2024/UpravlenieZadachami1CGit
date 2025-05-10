@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.19">
+	<ConfigVersions>
+		<Metadata name="Catalog.АМ_КатегорииПроцедурИФункций" id="ec14a8d2-ae26-4dc9-813c-ed291e26d9b3" configVersion="09554eb4e4771c2f8851cf7b36b2a198c768bbd9">
+			<Metadata name="Catalog.АМ_КатегорииПроцедурИФункций.Attribute.ДополнительноеПояснениеККатегории" id="c49fd378-e498-4d5c-a441-eb7d32d5f53a"/>
+			<Metadata name="Catalog.АМ_КатегорииПроцедурИФункций.Attribute.ПолноеНаименованиеКатегории" id="d9b03e49-5872-425a-abfb-91cec5cf5a03"/>
+		</Metadata>
+		<Metadata name="Catalog.АМ_КатегорииПроцедурИФункций.Form.ФормаСписка" id="bb44608c-c1cc-456a-ba7b-85b5182666d1" configVersion="d258d3460bcd6bb4d3618fc02257f5777b3e079f"/>
+		<Metadata name="Catalog.АМ_КатегорииПроцедурИФункций.Form.ФормаСписка.Form" id="bb44608c-c1cc-456a-ba7b-85b5182666d1.0" configVersion="2da7f3abba5f5b3ce64e83cb9a3d66f199301cca"/>
+		<Metadata name="Catalog.АМ_КатегорииПроцедурИФункций.Form.ФормаСписка.Help" id="bb44608c-c1cc-456a-ba7b-85b5182666d1.1" configVersion="db0d15a477102b1cf77444bcd20dc25fddf13811"/>
+		<Metadata name="Catalog.АМ_КатегорииПроцедурИФункций.Form.ФормаЭлемента" id="13d708b9-7810-4911-9a2e-69fe90e68d5f" configVersion="b81cb4b83b0d2237c1e9f2abf6d17474cab595c8"/>
+		<Metadata name="Catalog.АМ_КатегорииПроцедурИФункций.Form.ФормаЭлемента.Form" id="13d708b9-7810-4911-9a2e-69fe90e68d5f.0" configVersion="2ce2400d94b9c6d9344cee2534d92a416c6352e4"/>
+		<Metadata name="Catalog.АМ_КатегорииПроцедурИФункций.Help" id="ec14a8d2-ae26-4dc9-813c-ed291e26d9b3.1" configVersion="25dbd4edffcc20eb03f09b1dd8e01f008b8a5e0a"/>
+		<Metadata name="Catalog.АМ_КатегорииПроцедурИФункций.ObjectModule" id="ec14a8d2-ae26-4dc9-813c-ed291e26d9b3.0" configVersion="54ad4adca23c699f968361d6e24ba87422ea4736"/>
+		<Metadata name="Catalog.АМ_МодулиОбъектовМетаданных" id="32d5379e-4c3b-45d9-a24e-5db84af3e624" configVersion="6b816c7805c1fd13a12b0119df389379a3b19970">
+			<Metadata name="Catalog.АМ_МодулиОбъектовМетаданных.Attribute.ТипМодуля" id="436f523c-fc2e-475b-a6bb-960e9e83243d"/>
+			<Metadata name="Catalog.АМ_МодулиОбъектовМетаданных.Attribute.ТипОбъектаМД" id="65a90a1c-4a57-4915-9e08-b986a5339244"/>
+			<Metadata name="Catalog.АМ_МодулиОбъектовМетаданных.Attribute.НеТиповой" id="6a32c664-940e-4cc5-ac78-ae252af2ee33"/>
+			<Metadata name="Catalog.АМ_МодулиОбъектовМетаданных.Attribute.СинонимОбъектаМД" id="f076b6d1-f1cf-4e2d-8d22-1a93469794f9"/>
+		</Metadata>
+		<Metadata name="Catalog.АМ_МодулиОбъектовМетаданных.Form.ФормаСписка" id="a4fa8dc9-2ce3-475d-a40e-8e1bd1674465" configVersion="2e58f9c71566ef3ba7461685d7408bc761de701b"/>
+		<Metadata name="Catalog.АМ_МодулиОбъектовМетаданных.Form.ФормаСписка.Form" id="a4fa8dc9-2ce3-475d-a40e-8e1bd1674465.0" configVersion="157f53e2e22a57f74d8c19d80ca6890d9bb30c76"/>
+		<Metadata name="Catalog.АМ_МодулиОбъектовМетаданных.Form.ФормаСписка.Help" id="a4fa8dc9-2ce3-475d-a40e-8e1bd1674465.1" configVersion="db0d15a477102b1cf77444bcd20dc25fddf13811"/>
+		<Metadata name="Catalog.АМ_МодулиОбъектовМетаданных.Help" id="32d5379e-4c3b-45d9-a24e-5db84af3e624.1" configVersion="78b72a2d9910c5964f7adb543e46d58dc335e011"/>
+		<Metadata name="Catalog.АМ_ОбщиеМодули" id="872b85ec-eabf-4ed0-88da-a9f748a41bae" configVersion="91e0e90bc3f0c712b5635a0b6443d1f91819f168">
+			<Metadata name="Catalog.АМ_ОбщиеМодули.Attribute.Синоним" id="107742c3-d2a1-423a-acaf-686fb3a88410"/>
+			<Metadata name="Catalog.АМ_ОбщиеМодули.Attribute.КлиентОбычноеПриложение" id="1303a543-000e-4410-9bee-d4136479a1c6"/>
+			<Metadata name="Catalog.АМ_ОбщиеМодули.Attribute.Сервер" id="42d8f201-261f-4e95-b5cd-4ff82484317d"/>
+			<Metadata name="Catalog.АМ_ОбщиеМодули.Attribute.КлиентУправляемоеПриложение" id="4ec80c67-5773-452d-bc84-34ea94c9f9ef"/>
+			<Metadata name="Catalog.АМ_ОбщиеМодули.Attribute.ПовторноеИспользованиеВозвращаемыхЗначений" id="4fb18ce6-c24a-43f1-bef4-1561934ae800"/>
+			<Metadata name="Catalog.АМ_ОбщиеМодули.Attribute.Комментарий" id="759ea911-7a3f-4f64-b40d-a95f228ea016"/>
+			<Metadata name="Catalog.АМ_ОбщиеМодули.Attribute.ВнешнееСоединение" id="7b707c0c-b221-4add-9fe0-a760d3ad18c0"/>
+			<Metadata name="Catalog.АМ_ОбщиеМодули.Attribute.ВызовСервера" id="8f850b4b-f151-42ae-8ba1-067b43b36513"/>
+			<Metadata name="Catalog.АМ_ОбщиеМодули.Attribute.Версия" id="9d61bbe9-47ef-4304-b3d9-a0fa60dd95b9"/>
+			<Metadata name="Catalog.АМ_ОбщиеМодули.Attribute.Привилегированный" id="de48d094-fbb1-4b6b-9fe0-e7613df5c223"/>
+			<Metadata name="Catalog.АМ_ОбщиеМодули.Attribute.Глобальный" id="e52529b3-dc58-4ac8-8bef-df3762bd8eb6"/>
+			<Metadata name="Catalog.АМ_ОбщиеМодули.Attribute.НеТиповой" id="f07d2548-cf96-4cf0-a39f-cf490256ebe0"/>
+		</Metadata>
+		<Metadata name="Catalog.АМ_ОбщиеМодули.Form.ФормаСписка" id="2054b355-1412-4f4c-bae9-0f5ddb48bdbb" configVersion="4f39d061757fc7c8318c5d937e5a2ce476311e66"/>
+		<Metadata name="Catalog.АМ_ОбщиеМодули.Form.ФормаСписка.Form" id="2054b355-1412-4f4c-bae9-0f5ddb48bdbb.0" configVersion="055d3ee31eff4497476694463da2da53c1ed97f6"/>
+		<Metadata name="Catalog.АМ_ОбщиеМодули.Form.ФормаСписка.Help" id="2054b355-1412-4f4c-bae9-0f5ddb48bdbb.1" configVersion="4639fe4537c115a5a9cadf06ad1e359194907979"/>
+		<Metadata name="Catalog.АМ_ОбщиеМодули.Form.ФормаЭлемента" id="77d772c3-3bf9-41a8-8dfd-1c17284bfa5f" configVersion="7d790a5de4ad4cb106c8d562b898cd6941884d4d"/>
+		<Metadata name="Catalog.АМ_ОбщиеМодули.Form.ФормаЭлемента.Form" id="77d772c3-3bf9-41a8-8dfd-1c17284bfa5f.0" configVersion="9962aaad6a7b1b1db025685da35f84d2a6fc47f9"/>
+		<Metadata name="Catalog.АМ_ОбщиеМодули.Form.ФормаЭлемента.Help" id="77d772c3-3bf9-41a8-8dfd-1c17284bfa5f.1" configVersion="f99cbacf886ef0865d85b2c4283714790323eafc"/>
+		<Metadata name="Catalog.АМ_Параметры" id="9c97f669-b484-4dff-b367-904531892fa4" configVersion="bf4303eb6d9a180698facbd0187fcdd86d2874f6">
+			<Metadata name="Catalog.АМ_Параметры.TabularSection.ТипыПараметров.Attribute.ОписаниеПараметра" id="11c93fc8-ea6e-4d4e-aa0a-fbb90ad4d1af"/>
+			<Metadata name="Catalog.АМ_Параметры.Attribute.Обязательный" id="18b4f225-3b21-4f23-834b-4f2ea5377975"/>
+			<Metadata name="Catalog.АМ_Параметры.Attribute.ОсновнойТипПараметра" id="2de7f3c0-08e1-4664-9a8f-1ab376ac17f7"/>
+			<Metadata name="Catalog.АМ_Параметры.TabularSection.ТипыПараметров" id="2e729e03-4c53-44cc-931e-06226a73bfb8"/>
+			<Metadata name="Catalog.АМ_Параметры.Attribute.ЗначениеПоУмолчанию" id="3ebd9b51-bbe3-4139-be29-76f9e76a11ad"/>
+			<Metadata name="Catalog.АМ_Параметры.TabularSection.ТипыПараметров.Attribute.ТипПараметра" id="5dc606d8-28a6-4847-9029-e1a46e399ab1"/>
+			<Metadata name="Catalog.АМ_Параметры.Attribute.ТекстовоеОписание" id="9ac7fd97-2366-4e26-af53-77e50a7022cd"/>
+			<Metadata name="Catalog.АМ_Параметры.Attribute.ВидПараметра" id="a618e9f3-b70c-4b9a-b08c-0f3664543efa"/>
+			<Metadata name="Catalog.АМ_Параметры.Attribute.ПорядокВВызове" id="fcec114c-8c96-4437-a50f-fd10643d990c"/>
+		</Metadata>
+		<Metadata name="Catalog.АМ_Параметры.Form.ФормаСписка" id="98cf3503-504c-40b0-9adb-76be615a0d3c" configVersion="fdf3112e16bd9386a794636d13ee5db1e7daf594"/>
+		<Metadata name="Catalog.АМ_Параметры.Form.ФормаСписка.Form" id="98cf3503-504c-40b0-9adb-76be615a0d3c.0" configVersion="c0b741984f750c90df310c9d4fc74843d5029804"/>
+		<Metadata name="Catalog.АМ_Параметры.Form.ФормаСписка.Help" id="98cf3503-504c-40b0-9adb-76be615a0d3c.1" configVersion="3ebedf9fb0aa2907eab603c9e6a492d66db92c15"/>
+		<Metadata name="Catalog.АМ_Параметры.Form.ФормаЭлемента" id="51390313-f63d-49e6-8348-7d47b4205a20" configVersion="969081dd8608d755825a86b1b380ccaa07bd2adc"/>
+		<Metadata name="Catalog.АМ_Параметры.Form.ФормаЭлемента.Form" id="51390313-f63d-49e6-8348-7d47b4205a20.0" configVersion="01691e7d2294befd9e438b131e63ad58b2ecd4e9"/>
+		<Metadata name="Catalog.АМ_Параметры.Form.ФормаЭлемента.Help" id="51390313-f63d-49e6-8348-7d47b4205a20.1" configVersion="530d97ff6ce52f9d0a23d0c3a73e1efef184c0d7"/>
+		<Metadata name="Catalog.АМ_ПроцедурыИФункции" id="cdf21235-59ed-4da5-a9f7-ac1702772f4a" configVersion="bb987d5617baf5f500c646ef107692ba992210e8">
+			<Metadata name="Catalog.АМ_ПроцедурыИФункции.Attribute.КомментарийВручную" id="0fc659ed-55de-46f1-af39-8d6cb05b8612"/>
+			<Metadata name="Catalog.АМ_ПроцедурыИФункции.Attribute.Экспортная" id="23fa4db2-3ff8-417f-975f-9cc4c1bde8b6"/>
+			<Metadata name="Catalog.АМ_ПроцедурыИФункции.Attribute.ОбщееОписание" id="33dec47f-cb02-4173-9de7-bf7258abea95"/>
+			<Metadata name="Catalog.АМ_ПроцедурыИФункции.Attribute.Важно" id="5a1fc400-a10c-49e8-bd0b-3c1a87791760"/>
+			<Metadata name="Catalog.АМ_ПроцедурыИФункции.Attribute.ТекстМодуля" id="5b3352f2-e32c-4982-9e05-0ab64b07696b"/>
+			<Metadata name="Catalog.АМ_ПроцедурыИФункции.Attribute.Автор" id="64992746-b538-459c-8724-3d9e3b7331cd"/>
+			<Metadata name="Catalog.АМ_ПроцедурыИФункции.Attribute.Устарела" id="6f42bcd9-90d5-4aa1-b5c7-d77a920ecb3f"/>
+			<Metadata name="Catalog.АМ_ПроцедурыИФункции.Attribute.ОбластьМодуля" id="8ba64490-ee8f-48d1-afb1-918f11954f7d"/>
+			<Metadata name="Catalog.АМ_ПроцедурыИФункции.Attribute.ВидМетода" id="8cf6dfca-eafd-47cc-a5b0-dfa58c5a711e"/>
+			<Metadata name="Catalog.АМ_ПроцедурыИФункции.Attribute.ТекстКомментария" id="9250ca7e-7389-488d-abc5-3d320676d3f9"/>
+			<Metadata name="Catalog.АМ_ПроцедурыИФункции.TabularSection.СвязанныеПроцедурыИФункции" id="9d392abd-2a99-417f-9754-c3703a071647"/>
+			<Metadata name="Catalog.АМ_ПроцедурыИФункции.Attribute.ТолькоВКонтексте" id="a0c1f5e2-b51c-4b57-bda2-6f61d264acfa"/>
+			<Metadata name="Catalog.АМ_ПроцедурыИФункции.Attribute.НеТиповая" id="a4e2d2c5-f5ff-45f7-82e5-e206b0a6026a"/>
+			<Metadata name="Catalog.АМ_ПроцедурыИФункции.TabularSection.СвязанныеПроцедурыИФункции.Attribute.ПроцедураИлиФункция" id="c3f089db-e087-4d49-83cf-7fa6f4f02bc7"/>
+			<Metadata name="Catalog.АМ_ПроцедурыИФункции.Attribute.Пример" id="cc37089c-bb6a-42e6-911a-f6494bee836b"/>
+			<Metadata name="Catalog.АМ_ПроцедурыИФункции.TabularSection.Категории.Attribute.КатегорияМетода" id="ce90b4ae-b118-4539-a925-b355f0d42a73"/>
+			<Metadata name="Catalog.АМ_ПроцедурыИФункции.TabularSection.Категории" id="ec079a83-24ec-4702-81c1-e75aa1f5adee"/>
+		</Metadata>
+		<Metadata name="Catalog.АМ_ПроцедурыИФункции.Form.ФормаВставкаСписка" id="da0b2b5a-5de6-47ca-aaf2-3c6f82109cf1" configVersion="2c89b4800fb80409eddb75ccdb12da24c4d4acd6"/>
+		<Metadata name="Catalog.АМ_ПроцедурыИФункции.Form.ФормаВставкаСписка.Form" id="da0b2b5a-5de6-47ca-aaf2-3c6f82109cf1.0" configVersion="68c3b116f3facf64040f156fcbcd89ed0b451fb5"/>
+		<Metadata name="Catalog.АМ_ПроцедурыИФункции.Form.ФормаСписка" id="dac4bd02-1318-4128-9792-ef177a1cfe79" configVersion="10358e38c6bae018de607347e2da9d988d8c4f3a"/>
+		<Metadata name="Catalog.АМ_ПроцедурыИФункции.Form.ФормаСписка.Form" id="dac4bd02-1318-4128-9792-ef177a1cfe79.0" configVersion="8856a0bf8eb819a8417743cc63af00230c13c5d7"/>
+		<Metadata name="Catalog.АМ_ПроцедурыИФункции.Form.ФормаСписка.Help" id="dac4bd02-1318-4128-9792-ef177a1cfe79.1" configVersion="3b1a2bbed231415a604c99ffbc90678d948b7a59"/>
+		<Metadata name="Catalog.АМ_ПроцедурыИФункции.Form.ФормаЭлемента" id="dd4fb059-06f5-4e5c-a4ac-11e548f89776" configVersion="835b486b067446dbe312cfd2b61f64dfa30de957"/>
+		<Metadata name="Catalog.АМ_ПроцедурыИФункции.Form.ФормаЭлемента.Form" id="dd4fb059-06f5-4e5c-a4ac-11e548f89776.0" configVersion="552f32f6b0fc0dd3cacad09b0b351e2051d43553"/>
+		<Metadata name="Catalog.АМ_ПроцедурыИФункции.Form.ФормаЭлемента.Help" id="dd4fb059-06f5-4e5c-a4ac-11e548f89776.1" configVersion="3849c60897443d69c5c07f9bf669e3b88e70953a"/>
+		<Metadata name="Catalog.АМ_ПроцедурыИФункции.Help" id="cdf21235-59ed-4da5-a9f7-ac1702772f4a.1" configVersion="db0d15a477102b1cf77444bcd20dc25fddf13811"/>
+		<Metadata name="Catalog.АМ_ТипыЗначений" id="9b5d5396-9477-4959-a7d9-4b8a0ed758a9" configVersion="174e575464e36ac0d092a7210d2b61259ba3feba">
+			<Metadata name="Catalog.АМ_ТипыЗначений.Attribute.Типовой" id="86d482e7-9da4-4919-853c-d141e4e00b78"/>
+			<Metadata name="Catalog.АМ_ТипыЗначений.Attribute.Списочный" id="e01d43ef-8453-4445-bfd9-2b42a9d0eff1"/>
+		</Metadata>
+		<Metadata name="Catalog.АМ_ТипыЗначений.Help" id="9b5d5396-9477-4959-a7d9-4b8a0ed758a9.1" configVersion="a02fd0fbacc3828817606ff2aa048effd76a715c"/>
+		<Metadata name="Catalog.Пользователи" id="a69e476e-1e0c-4ee9-a210-b2e77811ed38" configVersion="e184d1c1f4ed2d3a702eaefaaffd36940fac23e0"/>
+		<Metadata name="Catalog.узКонфигурации" id="9e675acd-d295-41a6-8b5b-2d056a57f424" configVersion="9a61565abdf3aa65a4e194075ffecaacd3554d8c"/>
+		<Metadata name="CommonModule.АМ_ЗапускПриложенийКлиентСервер" id="6f5a95c3-3958-4c53-a2f7-f0b14b0c6b52" configVersion="627e5d03c082014ed78150f7965afe6413415344"/>
+		<Metadata name="CommonModule.АМ_ЗапускПриложенийКлиентСервер.Module" id="6f5a95c3-3958-4c53-a2f7-f0b14b0c6b52.0" configVersion="5920662362fbd1ffb7ef206ca9a22f9dcf023856"/>
+		<Metadata name="CommonModule.АМ_РаботаСТекстомПроцедурИФункцийКлиентСервер" id="228dc291-e7e1-4946-8cbf-6537efa12c63" configVersion="2d5f388fd20c23af5c1c62782c48caa1537e069a"/>
+		<Metadata name="CommonModule.АМ_РаботаСТекстомПроцедурИФункцийКлиентСервер.Module" id="228dc291-e7e1-4946-8cbf-6537efa12c63.0" configVersion="a0679d65aa3fc83163e361b1a74a9b2f09bded28"/>
+		<Metadata name="CommonModule.АМ_РаботаСТекстомПроцедурИФункцийСервер" id="29d22bf9-5d3b-4998-8105-dd5becf2d5dd" configVersion="66077efd9458501f5f99a3320f2ab3bba090c056"/>
+		<Metadata name="CommonModule.АМ_РаботаСТекстомПроцедурИФункцийСервер.Module" id="29d22bf9-5d3b-4998-8105-dd5becf2d5dd.0" configVersion="cd0c2812cc35f8be4157d7ada3ccdb419e8a681c"/>
+		<Metadata name="CommonModule.АМ_РаботаСТекстомПроцедурИФункцийСерверПовторноеИспользование" id="e0cbd538-4050-4abf-9a09-603597a44aa5" configVersion="65de1f425731e1486f275db6f6fc6728a334a8d3"/>
+		<Metadata name="CommonModule.АМ_РаботаСТекстомПроцедурИФункцийСерверПовторноеИспользование.Module" id="e0cbd538-4050-4abf-9a09-603597a44aa5.0" configVersion="173d6d7268e59d75464a2206dd4f8b9c3d7a48e5"/>
+		<Metadata name="CommonModule.ОбщегоНазначения" id="ee6de800-7a22-4c77-9d6b-43387d1053e6" configVersion="9918e19d7af4bb202efef30f67a1637fa9824bee"/>
+		<Metadata name="CommonModule.СтроковыеФункцииКлиентСервер" id="c4908eb9-67b0-46de-b9c8-70aeee9d8316" configVersion="b73c13ee3358deb1058d3412d31d9177a6ff5c6a"/>
+		<Metadata name="CommonPicture.АМ_ОбщаяКартинка1" id="efa9f8be-d5dc-4672-8792-2dad1d6404ba" configVersion="189ed2f80a1f8943c5ed554926086263097f1333"/>
+		<Metadata name="CommonPicture.АМ_ОбщаяКартинка1.Picture" id="efa9f8be-d5dc-4672-8792-2dad1d6404ba.0" configVersion="75501b8a12e2e4a0894688c491786d8eb1e8b61a"/>
+		<Metadata name="Configuration.ПроцедурыИФункцииОбщихМодулейКонфигурации" id="7cd7a2cd-2072-4694-8442-1be893560db4" configVersion="2c6594a4c36e8d214dfe5a3d612c6ba26e6b609b"/>
+		<Metadata name="DataProcessor.АМ_АнализФайловМодулейКонфигурации" id="85e461a7-9821-4602-8aa6-fb90514e1e26" configVersion="6f9689ef8a6fe04b6812f6b5f344553505d3d1ae">
+			<Metadata name="DataProcessor.АМ_АнализФайловМодулейКонфигурации.Attribute.АдресМассиваОписанияМодулей" id="101abf97-5725-4ebe-8f64-97120ad97b01"/>
+			<Metadata name="DataProcessor.АМ_АнализФайловМодулейКонфигурации.Attribute.ВидЗагрузки" id="4859eab7-700a-4dac-8a2c-e780a559faae"/>
+			<Metadata name="DataProcessor.АМ_АнализФайловМодулейКонфигурации.Attribute.КаталогФайловКонфигурации" id="87395fda-729c-48d6-99d3-41d566c23228"/>
+			<Metadata name="DataProcessor.АМ_АнализФайловМодулейКонфигурации.Attribute.ЗагружатьТолькоМодуль" id="8b938cf1-ce65-4526-b5b4-d0b5d7dafdc8"/>
+			<Metadata name="DataProcessor.АМ_АнализФайловМодулейКонфигурации.Attribute.ЗагружатьТолькоМетод" id="d110622b-43db-452c-a1c9-791edf80c69c"/>
+			<Metadata name="DataProcessor.АМ_АнализФайловМодулейКонфигурации.Attribute.ВыбраннаяКонфигурация" id="fe7a63bc-e433-483c-8a79-94853c883089"/>
+		</Metadata>
+		<Metadata name="DataProcessor.АМ_АнализФайловМодулейКонфигурации.Form.АнализФайловМодулейКонфигурации" id="eaa85fc2-9acc-45ec-b737-b1e037aa1394" configVersion="b3dbb0837e2969c41e91f950970e5940a9c3571c"/>
+		<Metadata name="DataProcessor.АМ_АнализФайловМодулейКонфигурации.Form.АнализФайловМодулейКонфигурации.Form" id="eaa85fc2-9acc-45ec-b737-b1e037aa1394.0" configVersion="405b02dc7721ba83798fc4607eb976dc3e71e3c8"/>
+		<Metadata name="DataProcessor.АМ_АнализФайловМодулейКонфигурации.Form.АнализФайловМодулейКонфигурации.Help" id="eaa85fc2-9acc-45ec-b737-b1e037aa1394.1" configVersion="cb23ba81c86b8056bb1971946d17d7997f04adad"/>
+		<Metadata name="DataProcessor.АМ_СписокПоискаМетодовКонфигурации" id="ed556810-672a-4bf0-bea7-3a483c25fbdf" configVersion="7950f507bc70e2d23bfe398be767fb7ea358c9b4">
+			<Metadata name="DataProcessor.АМ_СписокПоискаМетодовКонфигурации.Attribute.ИскатьВКатегории" id="6342b36e-5667-45e7-80eb-fbc7a5d32fc5"/>
+			<Metadata name="DataProcessor.АМ_СписокПоискаМетодовКонфигурации.Attribute.СтрокаПоискаРеквизитОбработки" id="72dd0e61-2d5d-4475-8d50-6e678e6dbb85"/>
+			<Metadata name="DataProcessor.АМ_СписокПоискаМетодовКонфигурации.Attribute.ИскатьВОбластиМодуля" id="95812ad4-18f1-4177-8876-c98f6fe3387e"/>
+			<Metadata name="DataProcessor.АМ_СписокПоискаМетодовКонфигурации.Attribute.СтрокаПоиска" id="e0f0ea5a-008a-49d3-a143-d052a829e384"/>
+			<Metadata name="DataProcessor.АМ_СписокПоискаМетодовКонфигурации.Attribute.ИскатьВНаименовании" id="e9dc2ef6-68a6-4f83-b0f9-8d36cf13ce33"/>
+			<Metadata name="DataProcessor.АМ_СписокПоискаМетодовКонфигурации.Attribute.ИскатьВНаименованииМодуля" id="fb3a1ad6-3850-4ca7-a635-b8f90770b081"/>
+			<Metadata name="DataProcessor.АМ_СписокПоискаМетодовКонфигурации.Attribute.ВыбраннаяКонфигурация" id="fda7d48f-d742-43ff-bb09-c1b7a7967c47"/>
+		</Metadata>
+		<Metadata name="DataProcessor.АМ_СписокПоискаМетодовКонфигурации.Form.ФормаПоискаМетодов" id="234435fb-b4b6-49e3-8060-fa2c2351b003" configVersion="51342fc0da816ed76dfc3c719006dcfba1b99134"/>
+		<Metadata name="DataProcessor.АМ_СписокПоискаМетодовКонфигурации.Form.ФормаПоискаМетодов.Form" id="234435fb-b4b6-49e3-8060-fa2c2351b003.0" configVersion="c193f4ddd9af16974624b44f1623fa9f8eb63461"/>
+		<Metadata name="DataProcessor.АМ_СписокПоискаМетодовКонфигурации.Form.ФормаПоискаМетодов.Help" id="234435fb-b4b6-49e3-8060-fa2c2351b003.1" configVersion="b3a48ff89582b82bff89e09387cadbcc0d89998f"/>
+		<Metadata name="Enum.АМ_ВидПовторногоИспользованияМодуля" id="7c0df81b-f985-4ade-941d-233ece3fba2d" configVersion="43b95f66cce94178795598840fe16a7d1df556a5">
+			<Metadata name="Enum.АМ_ВидПовторногоИспользованияМодуля.EnumValue.НеИспользовать" id="7257a6c1-8efd-4056-b5bf-2b341376971a"/>
+			<Metadata name="Enum.АМ_ВидПовторногоИспользованияМодуля.EnumValue.НаВремяСеанса" id="8efa3f0b-606c-4dd7-9ce5-7f639251e2e0"/>
+			<Metadata name="Enum.АМ_ВидПовторногоИспользованияМодуля.EnumValue.НаВремяВызова" id="dbed3880-a920-4d07-b9ee-2e576d076da3"/>
+		</Metadata>
+		<Metadata name="Enum.АМ_ВидыКонтекста" id="b9ec8856-aa22-4648-9cd2-3fdeb25d33ca" configVersion="3f63bd0d22a4ae259a47d1a021c53a33dad429f5">
+			<Metadata name="Enum.АМ_ВидыКонтекста.EnumValue.Клиент" id="5b1b3f48-5c4d-44b5-a537-dec222fdfa10"/>
+			<Metadata name="Enum.АМ_ВидыКонтекста.EnumValue.КлиентСервер" id="7971ac65-0560-4fdd-87d4-12c900443476"/>
+			<Metadata name="Enum.АМ_ВидыКонтекста.EnumValue.Сервер" id="92aef9bf-db8f-4049-8233-c50d05b9c7a3"/>
+		</Metadata>
+		<Metadata name="Enum.АМ_ВидыМетодов" id="668f533e-c5cc-40ac-93e8-2a186fd8fe84" configVersion="aea52d788d28979a7a670f9ecb51b28734e68424">
+			<Metadata name="Enum.АМ_ВидыМетодов.EnumValue.Процедура" id="1393fd19-c040-4e3a-8410-7e20558e6d31"/>
+			<Metadata name="Enum.АМ_ВидыМетодов.EnumValue.Функция" id="d80ae81d-6747-4f68-b2e2-62b3099a8d76"/>
+		</Metadata>
+		<Metadata name="Enum.АМ_ВидыПараметровПроцедурФункций" id="fa2c3bdb-fa96-4a19-842f-868c2e74689e" configVersion="35e22c356023f95f774387a1e4eff1c2adbfb5c8">
+			<Metadata name="Enum.АМ_ВидыПараметровПроцедурФункций.EnumValue.Входной" id="9770ce4f-3243-42d6-aa91-87c45605f3c2"/>
+			<Metadata name="Enum.АМ_ВидыПараметровПроцедурФункций.EnumValue.Выходной" id="c6150fc6-2a5b-418a-a0fd-92172367fc87"/>
+		</Metadata>
+		<Metadata name="Enum.АМ_ТипыМодулейОбъектовМетаданных" id="c523cfcd-532c-42f7-b561-48546214e4b2" configVersion="9517826d835b13f946f2254d1674066d55e2c0c2">
+			<Metadata name="Enum.АМ_ТипыМодулейОбъектовМетаданных.EnumValue.Объекта" id="22ce7ea5-a47c-43e7-b15e-eda512524de4"/>
+			<Metadata name="Enum.АМ_ТипыМодулейОбъектовМетаданных.EnumValue.Менеджера" id="9f9e0e78-4a4c-4f51-bc61-5f7bd1d7f2bb"/>
+		</Metadata>
+		<Metadata name="InformationRegister.АМ_КаталогиФайловМодулейКонфигураций" id="06691702-fad7-48e4-86f0-fcd8917f5558" configVersion="9a2245612c475e269a77fe7b0a8185188c2f8323">
+			<Metadata name="InformationRegister.АМ_КаталогиФайловМодулейКонфигураций.Resource.ПарольПользователя" id="0c7f1a43-15e2-4c99-bef2-afc868241a78"/>
+			<Metadata name="InformationRegister.АМ_КаталогиФайловМодулейКонфигураций.Resource.КаталогПути" id="36e2ee30-9bed-4192-8b50-390c0ea95a89"/>
+			<Metadata name="InformationRegister.АМ_КаталогиФайловМодулейКонфигураций.Resource.ИмяСервера" id="3813ea9f-aeea-4af8-a5c3-7fba38baad5d"/>
+			<Metadata name="InformationRegister.АМ_КаталогиФайловМодулейКонфигураций.Dimension.Конфигурация" id="5e2edb18-c5af-4c2d-ad19-0d06ef4f008a"/>
+			<Metadata name="InformationRegister.АМ_КаталогиФайловМодулейКонфигураций.Resource.ИмяБазы" id="9f816b1a-7015-4c09-913c-95da36262548"/>
+			<Metadata name="InformationRegister.АМ_КаталогиФайловМодулейКонфигураций.Resource.ИмяПользователя" id="b41b0e62-d263-4c4b-a678-f98040ccb6f3"/>
+		</Metadata>
+		<Metadata name="InformationRegister.АМ_КаталогиФайловМодулейКонфигураций.Form.ФормаЗаписи" id="b4ec5377-f16e-4fad-ac29-55bc30a45caa" configVersion="4a397dafc45d4cd3b66a7bb9f15e8ed516168ca3"/>
+		<Metadata name="InformationRegister.АМ_КаталогиФайловМодулейКонфигураций.Form.ФормаЗаписи.Form" id="b4ec5377-f16e-4fad-ac29-55bc30a45caa.0" configVersion="2f2bc16ce953544dca79289e1be6720bb94ed48d"/>
+		<Metadata name="InformationRegister.АМ_КаталогиФайловМодулейКонфигураций.Form.ФормаЗаписи.Help" id="b4ec5377-f16e-4fad-ac29-55bc30a45caa.1" configVersion="182be89e580f615a84c6ce05636751b814baaff7"/>
+		<Metadata name="InformationRegister.АМ_КаталогиФайловМодулейКонфигураций.Form.ФормаСписка" id="307c2a29-4839-41f7-9e5d-766f4e72c881" configVersion="bb142e7fc7a63f2970852d28d07544720583d9a6"/>
+		<Metadata name="InformationRegister.АМ_КаталогиФайловМодулейКонфигураций.Form.ФормаСписка.Form" id="307c2a29-4839-41f7-9e5d-766f4e72c881.0" configVersion="10db2037a2bd3df150473a389194f0b55cfc2c61"/>
+		<Metadata name="InformationRegister.АМ_КаталогиФайловМодулейКонфигураций.Form.ФормаСписка.Help" id="307c2a29-4839-41f7-9e5d-766f4e72c881.1" configVersion="2ff74e535e2354b4592f3c932a477fd02b57dcf3"/>
+		<Metadata name="InformationRegister.АМ_КаталогиФайловМодулейКонфигураций.ManagerModule" id="06691702-fad7-48e4-86f0-fcd8917f5558.2" configVersion="5e3f48dd6f83af8fe7f9777cbf17c1a447165bfb"/>
+		<Metadata name="Language.Русский" id="6e1cc5a6-91a9-4c7f-9d07-ff7e6e432da1" configVersion="fd364cfa51df2d46d1433ea44bbf01f575c153fe"/>
+		<Metadata name="Report.АМ_ОбщаяИнформацияПоФункциям" id="06d0852e-d482-4930-9edf-fafd5a83f8a7" configVersion="ec850225aed34ec3e69fee11e5fd5a57b951df6c"/>
+		<Metadata name="Report.АМ_ОбщаяИнформацияПоФункциям.Template.ОбщийОтчетПоМетодам" id="3f0aea91-1433-4b18-b496-edffb9ba8e7f" configVersion="8924a0317114dd58f65c15b70f620768c866fdb4"/>
+		<Metadata name="Report.АМ_ОбщаяИнформацияПоФункциям.Template.ОбщийОтчетПоМетодам.Template" id="3f0aea91-1433-4b18-b496-edffb9ba8e7f.0" configVersion="81b44c665aa10be22086dbb4dff0e48edfe796fb"/>
+		<Metadata name="Role.АМ_ПользовательПроцедурПолные" id="02f87418-e921-4210-913a-c7e950f6d91d" configVersion="ee59867e80e05f01d8750c365458192f042c2f19"/>
+		<Metadata name="Role.АМ_ПользовательПроцедурПолные.Rights" id="02f87418-e921-4210-913a-c7e950f6d91d.0" configVersion="71621e35a06d7120783fb1ef51d6db4b80ed776a"/>
+		<Metadata name="Subsystem.АМ_ПроцедурыИФункцииКонфигураций" id="5146e1af-18ed-4721-9ff1-c7dd60ed7a90" configVersion="729c808354bfaf346d2b0415b449b5e373e31ffd"/>
+		<Metadata name="Subsystem.АМ_ПроцедурыИФункцииКонфигураций.CommandInterface" id="5146e1af-18ed-4721-9ff1-c7dd60ed7a90.1" configVersion="145738e0179e5f9c267916c721fc3a6716dcc6a4"/>
+		<Metadata name="Subsystem.АМ_ПроцедурыИФункцииКонфигураций.Help" id="5146e1af-18ed-4721-9ff1-c7dd60ed7a90.0" configVersion="7e430a445c9d53914dc659a43820a8a3cff086a2"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

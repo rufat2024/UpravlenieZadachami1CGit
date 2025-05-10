@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<Visible>false</Visible>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<CheckBoxField name="НеТиповой" id="43">
+			<DataPath>Объект.НеТиповой</DataPath>
+			<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="НеТиповойКонтекстноеМеню" id="44"/>
+			<ExtendedTooltip name="НеТиповойРасширеннаяПодсказка" id="45"/>
+			<Events>
+				<Event name="OnChange">УстановитьПризнакНаВсеМетодвМодуля</Event>
+			</Events>
+		</CheckBoxField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Владелец" id="7">
+			<DataPath>Объект.Owner</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ВладелецКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Синоним" id="10">
+			<DataPath>Объект.Синоним</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СинонимКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="СинонимРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Комментарий" id="13">
+			<DataPath>Объект.Комментарий</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<CheckBoxField name="Глобальный" id="16">
+			<DataPath>Объект.Глобальный</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ГлобальныйКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ГлобальныйРасширеннаяПодсказка" id="18"/>
+		</CheckBoxField>
+		<CheckBoxField name="КлиентУправляемоеПриложение" id="19">
+			<DataPath>Объект.КлиентУправляемоеПриложение</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="КлиентУправляемоеПриложениеКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="КлиентУправляемоеПриложениеРасширеннаяПодсказка" id="21"/>
+		</CheckBoxField>
+		<CheckBoxField name="Сервер" id="22">
+			<DataPath>Объект.Сервер</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="СерверКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="СерверРасширеннаяПодсказка" id="24"/>
+		</CheckBoxField>
+		<CheckBoxField name="ВнешнееСоединение" id="25">
+			<DataPath>Объект.ВнешнееСоединение</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ВнешнееСоединениеКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ВнешнееСоединениеРасширеннаяПодсказка" id="27"/>
+		</CheckBoxField>
+		<CheckBoxField name="КлиентОбычноеПриложение" id="28">
+			<DataPath>Объект.КлиентОбычноеПриложение</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="КлиентОбычноеПриложениеКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="КлиентОбычноеПриложениеРасширеннаяПодсказка" id="30"/>
+		</CheckBoxField>
+		<CheckBoxField name="ВызовСервера" id="31">
+			<DataPath>Объект.ВызовСервера</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ВызовСервераКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ВызовСервераРасширеннаяПодсказка" id="33"/>
+		</CheckBoxField>
+		<CheckBoxField name="Привилегированный" id="34">
+			<DataPath>Объект.Привилегированный</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ПривилегированныйКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="ПривилегированныйРасширеннаяПодсказка" id="36"/>
+		</CheckBoxField>
+		<InputField name="ПовторноеИспользованиеВозвращаемыхЗначений" id="37">
+			<DataPath>Объект.ПовторноеИспользованиеВозвращаемыхЗначений</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПовторноеИспользованиеВозвращаемыхЗначенийКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="ПовторноеИспользованиеВозвращаемыхЗначенийРасширеннаяПодсказка" id="39"/>
+		</InputField>
+		<InputField name="Версия" id="40">
+			<DataPath>Объект.Версия</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ВерсияКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="ВерсияРасширеннаяПодсказка" id="42"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.АМ_ОбщиеМодули</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="УстановитьПризнакНаВсеМетодвМодуля" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить признак на все методв модуля</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить признак на все методв модуля</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановитьПризнакНаВсеМетодвМодуля</Action>
+		</Command>
+	</Commands>
+</Form>

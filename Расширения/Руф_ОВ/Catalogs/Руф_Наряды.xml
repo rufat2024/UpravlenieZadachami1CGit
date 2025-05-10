@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Catalog uuid="6da04034-fc52-4199-867e-917661ccb097">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Руф_Наряды" category="Object">
+				<xr:TypeId>763d8e6b-022a-4219-8e7b-21ac6ab63589</xr:TypeId>
+				<xr:ValueId>40ba59a6-e5e8-48f0-a133-8cea91bb383e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Руф_Наряды" category="Ref">
+				<xr:TypeId>d210570e-8367-4071-bf14-54fa1914b269</xr:TypeId>
+				<xr:ValueId>d5b33332-ac1e-48e1-a18f-54e83d361107</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Руф_Наряды" category="Selection">
+				<xr:TypeId>99b552b2-22da-4e12-90c0-aedfd5247867</xr:TypeId>
+				<xr:ValueId>948e1996-5d1f-4fef-a776-1579020124dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Руф_Наряды" category="List">
+				<xr:TypeId>d3d67cc2-03f6-45f1-a815-76788a292787</xr:TypeId>
+				<xr:ValueId>44baf66a-b8a6-4304-a5cd-a5dfd467bf0f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Руф_Наряды" category="Manager">
+				<xr:TypeId>7dc37661-06c9-419c-8a46-d2c16776d31e</xr:TypeId>
+				<xr:ValueId>a78cf57e-ae29-49cf-aa39-26f0d032d125</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Руф_Наряды</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>096c3f47-dfa5-435d-8c4a-98193596525b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.19">
+	<ConfigVersions>
+		<Metadata name="Catalog.SZ_БазаЗнаний" id="db449ab2-7bc3-4052-b223-3d420d93032c" configVersion="e99b03ee7f1538c3f75e9abae90d41fd9492ebe4">
+			<Metadata name="Catalog.SZ_БазаЗнаний.Attribute.Знание" id="2b444a68-a0ad-47b3-b62a-c98fd313dbda"/>
+			<Metadata name="Catalog.SZ_БазаЗнаний.Attribute.ТэгиТекст" id="4bb6135d-5afd-400a-a164-de6ce2b4530f"/>
+			<Metadata name="Catalog.SZ_БазаЗнаний.TabularSection.Тэги" id="4dc769bf-855b-4aa0-bde3-218d03a5fe5c"/>
+			<Metadata name="Catalog.SZ_БазаЗнаний.TabularSection.Тэги.Attribute.Тэг" id="4e0e74a0-ac25-4fbd-a588-1376a97fb0d9"/>
+			<Metadata name="Catalog.SZ_БазаЗнаний.Attribute.ЗнаниеХЗ" id="4ec42f27-f27e-4ad8-87c2-c9b7512b3c26"/>
+			<Metadata name="Catalog.SZ_БазаЗнаний.Attribute.ЗнаниеТабл" id="5cee9024-0e04-4329-b25e-f465ede59e83"/>
+			<Metadata name="Catalog.SZ_БазаЗнаний.Attribute.ЕстьФайлы" id="81f89066-76c9-4641-a5cc-d779aa40e681"/>
+			<Metadata name="Catalog.SZ_БазаЗнаний.TabularSection.Файлы.Attribute.СодержимоеФайла" id="d0d80a9e-e793-4f72-bba1-0bc6d84b8850"/>
+			<Metadata name="Catalog.SZ_БазаЗнаний.TabularSection.Файлы.Attribute.Файл" id="dc6459bc-0a8a-4c00-8e52-f1fec2e1ebce"/>
+			<Metadata name="Catalog.SZ_БазаЗнаний.TabularSection.Файлы" id="e24fa5f4-542a-4971-9a5e-5263507cf32d"/>
+		</Metadata>
+		<Metadata name="Catalog.SZ_БазаЗнаний.Form.ФормаГруппы" id="a26b4ace-cb7b-44c0-b48b-35962125bb18" configVersion="c969500ed29c44ea291dd5ab96fc70117527ace0"/>
+		<Metadata name="Catalog.SZ_БазаЗнаний.Form.ФормаГруппы.Form" id="a26b4ace-cb7b-44c0-b48b-35962125bb18.0" configVersion="82d88af3f52429dba78d47ee13bc2ad4be8dac75"/>
+		<Metadata name="Catalog.SZ_БазаЗнаний.Form.ФормаСписка" id="fd55790d-f4b5-418b-828f-7499bd0df7a1" configVersion="bce9191987b912c810ab0dc58fc761173862ef99"/>
+		<Metadata name="Catalog.SZ_БазаЗнаний.Form.ФормаСписка.Form" id="fd55790d-f4b5-418b-828f-7499bd0df7a1.0" configVersion="9bdd70d6fc7c9af8cfcbea830f5f88b72fce67ab"/>
+		<Metadata name="Catalog.SZ_БазаЗнаний.Form.ФормаЭлемента" id="99c54e1f-225a-4e3b-9c64-b520ef07eb81" configVersion="c2a5f345d02ee1a0249066bd4b7fc07d67450335"/>
+		<Metadata name="Catalog.SZ_БазаЗнаний.Form.ФормаЭлемента.Form" id="99c54e1f-225a-4e3b-9c64-b520ef07eb81.0" configVersion="4a70e5068df7f8b9b07618e4fee6cf25dc63c690"/>
+		<Metadata name="Catalog.SZ_БазаЗнаний.ManagerModule" id="db449ab2-7bc3-4052-b223-3d420d93032c.3" configVersion="bf570d4a8051482381fa5c1b42fd2985f753a478"/>
+		<Metadata name="Catalog.SZ_БазаЗнаний.ObjectModule" id="db449ab2-7bc3-4052-b223-3d420d93032c.0" configVersion="e9f5a4f2fad512701c9f7bef0ffc67b6f16f3f79"/>
+		<Metadata name="Catalog.SZ_Тэги" id="eec364ce-bde3-44e2-a158-2110e8db6c66" configVersion="97852ca0b9efcc7c490ecd4354e8d324b623965c"/>
+		<Metadata name="Catalog.узКонстанты" id="9aec0a87-c5a3-40cd-94a0-e6d65af26c99" configVersion="0b2c60af16a390d778912622695130e9e270c9af"/>
+		<Metadata name="CommonForm.SZ_синтакс" id="e6b53ba2-077e-40b7-ad8e-17e1cc23c691" configVersion="a6a95ce843d6cdce8409de1864da0739b60b2ccf"/>
+		<Metadata name="CommonForm.SZ_синтакс.Form" id="e6b53ba2-077e-40b7-ad8e-17e1cc23c691.0" configVersion="b8f5d4731aedca9be22e86a074912392a06bdc80"/>
+		<Metadata name="CommonModule.БЗ_ОбщийМодульСервер" id="ac955da9-97ef-4871-a4a4-6c3d327ed22d" configVersion="546ffde1a5d01dd3782a9a65cb5b1f3e238abe88"/>
+		<Metadata name="CommonModule.БЗ_ОбщийМодульСервер.Module" id="ac955da9-97ef-4871-a4a4-6c3d327ed22d.0" configVersion="d017d9dfeb4d03f9271d41a64fd05f6baa513225"/>
+		<Metadata name="CommonPicture.SZ_БЗ" id="e52945a5-5a9f-420e-8a25-0ed3664e97bf" configVersion="e9798e7ac8f60d6227aeba5c915df1426f8a8540"/>
+		<Metadata name="CommonPicture.SZ_БЗ.Picture" id="e52945a5-5a9f-420e-8a25-0ed3664e97bf.0" configVersion="23d7443e6a7ceb2f87f7750df9387c01cf8f62b0"/>
+		<Metadata name="CommonTemplate.SZ_Синтакс" id="e80ba2ed-cda7-4e57-9526-30988643a6ff" configVersion="e9ab114e7a1e251bc8db7d7c5c2194deaa100cd5"/>
+		<Metadata name="CommonTemplate.SZ_Синтакс.Template" id="e80ba2ed-cda7-4e57-9526-30988643a6ff.0" configVersion="56d476115e79b5f2cda67ccd172b1fe1f36780d1"/>
+		<Metadata name="Configuration.БазаЗнаний" id="f971bc9b-98f9-4b61-b7b9-4f8239c179ba" configVersion="f82623f2d157fb1059293f6f950e1930aea9dff3"/>
+		<Metadata name="DataProcessor.БЗ_Настройка" id="154480ab-6064-4e95-94e2-ebabaff2505d" configVersion="839085715d54ce566f9ec96a1a2fd1bc7c9e87f0"/>
+		<Metadata name="DataProcessor.БЗ_Настройка.Form.Форма" id="f563b35f-4dc3-4374-8954-bb43e7e19e06" configVersion="d048ad4383900650d5b46a20db430b24aa1e425d"/>
+		<Metadata name="DataProcessor.БЗ_Настройка.Form.Форма.Form" id="f563b35f-4dc3-4374-8954-bb43e7e19e06.0" configVersion="8560c7f6c089710233a81b7793b2bf3de31419ff"/>
+		<Metadata name="Language.Русский" id="b27c0d8d-55c8-4eab-bc50-88c5dcfbe84e" configVersion="c84d09789bfceac76d06ea3faa7bab8148e6ce1b"/>
+		<Metadata name="Subsystem.БазаЗнаний" id="af07341f-6e32-4fd7-b495-ab2efb5e9a1a" configVersion="e43103eb18b6b3b1c48d8bca8bf7f622c69ac265"/>
+		<Metadata name="Subsystem.БазаЗнаний.CommandInterface" id="af07341f-6e32-4fd7-b495-ab2efb5e9a1a.1" configVersion="c6b6e751bd1023a9c7f54d49813449a8d7bc4c53"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
